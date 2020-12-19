@@ -1,0 +1,42 @@
+{
+  "name": "Mechanical Crafter",
+  "icon": "create:mechanical_crafter",
+  "category": "contraptions",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Mechanical crafters are Create's solution to automating the production of advanced devices.$(br2)You'll need a lot. They function by holding an item in their single slot; when all Mechanical Crafters in an array have an item, they'll mash them together with the same precision a Player can."
+    },
+    {
+      "type": "multiblock",
+      "name": "Mechanical Crafters",
+      "multiblock": {
+        "pattern": [
+          [" CCC ","     "],
+          [" CCC ","  0  "],
+          [" CCC ","     "]
+        ],
+        "mapping": {
+          "C": "create:mechanical_crafter[facing=east]"
+        }
+      },
+      "enable_visualize": false,
+      "text": "Hey look, a crafting bench.$(br2)Make whatever shape you need!"
+    },
+    {
+      "type": "text",
+      "text": "If you need empty spaces in a crafting array and don't (or can't) just remove those crafters from the array, try using a Slot Cover! Made from a piece of brass plate, these fit snugly on a Mechanical Crafter's slot and won't be moved during assembly."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:crafter_slot_cover",
+      "text": "A convenient crafting cover-up component."
+    },
+    {
+      "type": "crafting",
+      "recipe": "create:mechanical_crafter",
+      "recipe2": "create:crafter_slot_cover",
+      "text": "Quis fabricat ipsos fabrica?"
+    }
+  ]
+}

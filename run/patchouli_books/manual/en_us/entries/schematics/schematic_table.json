@@ -1,0 +1,15 @@
+{
+  "name": "Schematic Table",
+  "icon": "create:schematic_table",
+  "category": "schematics",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The schematic table is for loading schematics to be placed."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:schematic_table"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Basics of Rotation",
+  "icon": "create:cogwheel",
+  "category": "introduction",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Create's core power system is the concept of $(l)Rotational Force$(). Sometimes the provided rotation speed and direction affects their behavior, and some machines have a more significant $(i)cost$() than others.$(br2)The following pages will attempt to cover these concepts in a succinct way."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Stress and Capacity$()$(br2)Machines that generate rotational force have limits, called their $(o)'Stress Capacity'$(). Machines that consume rotational force are said to have a $(o)'Stress Impact'$().$(br2)A mechanical network that is $(o)overstressed$() will seize up and be unable to function until the extra load is removed, or more capacity is added."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Stressful Speed$()$(br2)Stress impact is tied to rotation speed. The faster you operate a machine, the more stress it will consume. By default, components used $(l)only for relaying$() rotational power, such as $(l:shaft)Shafts$() and $(l:cogwheel)cogwheels$() will consume $(l)zero Stress$(), allowing you to design your transmission system however you like."
+    },
+    {
+      "type": "text",
+      "text": "Optimizing stress can become quite scientific. Create does supply equipment to examine Stress and Speed in detail, which will be covered in a later section. For those who are interested in more exhaustive information, please investigate the $(l:https://github.com/Creators-of-Create/Create/wiki)Create Wiki$()."
+    }
+  ]
+}

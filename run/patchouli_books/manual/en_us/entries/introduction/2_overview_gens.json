@@ -1,0 +1,80 @@
+{
+  "name": "Types of Generators",
+  "icon": "minecraft:furnace",
+  "category": "introduction",
+  "pages": [
+    {
+      "type": "text",
+      "text": "There are four major types of generator in Create currently, all with their own pros and cons. Remember to hover over their item for detailed information either here or in your inventory!"
+    },
+    {
+      "type": "spotlight",
+      "item": "create:water_wheel",
+      "text": "The humble Water Wheel is the most basic generator. All it requires is a water current flowing across its vanes. Direction and coverage matter, so be sure to check which way your wheel is facing."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:encased_fan",
+      "text": "The Encased Fan is a bit more advanced. While these are primarily used as consumers to create air currents, they can be configured as a generator with an applied redstone signal. In addition, the Fan face must be on the underside and directly above a heat source. Fire and Lava are obvious enough, but there are others for you to discover."
+    },
+    {
+      "type": "multiblock",
+      "name": "Fan Example",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            " I "
+          ],
+          [
+            " 0 ",
+            " FL"
+          ],
+          [
+            "   ",
+            " W "
+          ]
+        ],
+        "mapping": {
+          "I": "create:shaft",
+          "F": "create:encased_fan[facing=down]",
+          "L": "minecraft:lever[facing=south,powered=true]",
+          "W": "minecraft:fire"
+        }
+      },
+      "enable_visualize": false,
+      "text": "Updrafts, so hot right now."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:windmill_bearing",
+      "text": "The Windmill is a powerful device that has been in use for thousands of years in various forms. Create's windmills allow you to invent your own new forms by building a structure of $(l:sail_frame)Sails$() and other blocks to spin in the breeze."
+    },
+    {
+      "type": "text",
+      "text": "$(l)TODO$() put a picture of a windmill here, perhaps? A multiblock feels like the wrong approach."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:furnace_engine",
+      "text": "The Furnace Engine represents the beginning of a new age of power, the industrial era! It captures the heat from a normal $(l)lit$() furnace and turns it into pure rotational power, much like a Stirling Engine in real life.$(br2)You'll see linkages connecting when it's correct."
+    },
+    {
+      "type": "multiblock",
+      "name": "Furnace Engine",
+      "multiblock": {
+        "pattern": [
+          ["     "],
+          ["fe0w "],
+          ["     "]
+        ],
+        "mapping": {
+          "e": "create:furnace_engine[facing=south]",
+          "w": "create:flywheel[facing=east]",
+          "f": "minecraft:furnace[lit=true,facing=east]"
+        }
+      },
+      "text": "Full steam ahead!"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Generate and Convey",
+  "icon": "create:hand_crank",
+  "category": "introduction",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A lot of Create's machines need rotational power to operate. This power is referred to as $(l)Stress Units (SU)$(). There are a variety of machines capable of operating as $(o)SU generators$(), drawing their power from different sources.$(br2)Generators alone won't get you very far, though. You still need to link them to consumer machines in some manner, a task called $(o)transmission$()."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Helpful Hints$()$(br2)All of Create's devices have a detailed description you can view by hovering over the item, which will help you to understand their uses.$(br2)Multiple generators can be connected to the same network to increase capacity. When attaching new generators to a running network, ensure that the new connection point rotates in the same direction and with the same speed."
+    }
+  ]
+}

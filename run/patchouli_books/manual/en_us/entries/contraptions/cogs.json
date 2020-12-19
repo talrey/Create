@@ -1,0 +1,15 @@
+{
+  "name": "Cog Wheels",
+  "icon": "create:cogwheel",
+  "category": "contraptions",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Cog wheels are a basic part of mechanical power transmission."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:cogwheel"
+    }
+  ]
+}

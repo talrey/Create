@@ -1,7 +1,8 @@
 {
-  "name": "Basics of Rotation",
+  "name": "Rudimentary Rotation",
   "icon": "create:cogwheel",
   "category": "introduction",
+  "sortnum": 0,
   "pages": [
     {
       "type": "text",

@@ -21,21 +21,17 @@
         }
       },
       "enable_visualize": false,
-      "text": "Hey look, a crafting bench.$(br2)Make whatever shape you need!"
-    },
-    {
-      "type": "text",
-      "text": "If you need empty spaces in a crafting array and don't (or can't) just remove those crafters from the array, try using a Slot Cover! Made from a piece of brass plate, these fit snugly on a Mechanical Crafter's slot and won't be moved during assembly."
+      "text": "Hey look, a crafting bench. But who says it needs to be 3x3? Make whatever shape you need!"
     },
     {
       "type": "spotlight",
       "item": "create:crafter_slot_cover",
-      "text": "A convenient crafting cover-up component."
+      "text": "If you need empty spaces in a crafting array and don't (or can't) just remove those crafters from the array, try using a Slot Cover! Made from a piece of brass plate, these fit snugly on a Mechanical Crafter's slot and won't be moved during assembly."
     },
     {
       "type": "crafting",
-      "recipe": "create:mechanical_crafter",
-      "recipe2": "create:crafter_slot_cover",
+      "recipe": "create:crafting/kinetics/mechanical_crafter",
+      "recipe2": "create:crafting/kinetics/crafter_slot_cover",
       "text": "Quis fabricat ipsos fabrica?"
     }
   ]

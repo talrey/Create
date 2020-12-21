@@ -1,6 +1,6 @@
 {
   "name": "Logistics",
-  "description": "Sorting systems, ",
+  "description": "Sorting structures, special sensors, and signal systems.",
   "icon": "create:belt_connector",
   "sortnum": 2
 }

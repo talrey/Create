@@ -1,21 +1,22 @@
 {
-  "name": "Types of Generators",
+  "name": "Generators Galore",
   "icon": "minecraft:furnace",
   "category": "introduction",
+  "sortnum": 2,
   "pages": [
     {
       "type": "text",
       "text": "There are four major types of generator in Create currently, all with their own pros and cons. Remember to hover over their item for detailed information either here or in your inventory!"
     },
     {
-      "type": "spotlight",
-      "item": "create:water_wheel",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/water_wheel",
       "text": "The humble Water Wheel is the most basic generator. All it requires is a water current flowing across its vanes. Direction and coverage matter, so be sure to check which way your wheel is facing."
     },
     {
-      "type": "spotlight",
-      "item": "create:encased_fan",
-      "text": "The Encased Fan is a bit more advanced. While these are primarily used as consumers to create air currents, they can be configured as a generator with an applied redstone signal. In addition, the Fan face must be on the underside and directly above a heat source. Fire and Lava are obvious enough, but there are others for you to discover."
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/encased_fan",
+      "text": "The Encased Fan is a bit more advanced. While these are primarily used as consumers to create air currents, they can be configured as a generator with an applied redstone signal. In addition, the Fan face must be on the underside     and directly above a heat"
     },
     {
       "type": "multiblock",
@@ -43,11 +44,11 @@
         }
       },
       "enable_visualize": false,
-      "text": "Updrafts, so hot right now."
+      "text": "source. Fire and Lava are obvious enough, but there are others for you to discover."
     },
     {
-      "type": "spotlight",
-      "item": "create:windmill_bearing",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/windmill_bearing",
       "text": "The Windmill is a powerful device that has been in use for thousands of years in various forms. Create's windmills allow you to invent your own new forms by building a structure of $(l:sail_frame)Sails$() and other blocks to spin in the breeze."
     },
     {
@@ -74,7 +75,14 @@
           "f": "minecraft:furnace[lit=true,facing=east]"
         }
       },
-      "text": "Full steam ahead!"
+      "enable_visualize": false,
+      "text": "Note that these recipes require mechanical assembly. There's a lot of precise parts hidden inside this engine!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "create:mechanical_crafting/furnace_engine",
+      "recipe2": "create:mechanical_crafting/flywheel",
+      "text": "TODO figure out showing mechanical crafting recipes. If you see this, report it to Talrey#3535 / Morios."
     }
   ]
 }

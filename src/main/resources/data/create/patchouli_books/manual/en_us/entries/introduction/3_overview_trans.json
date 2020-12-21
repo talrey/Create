@@ -1,0 +1,74 @@
+{
+  "name": "Transmission Tactics",
+  "icon": "create:large_cogwheel",
+  "category": "introduction",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Create offers many ways to transmit rotational force, which will be covered in this section. More entries may appear as your mastery of mechanisms and materials matures...$(br2)Remember to hover over their item for detailed information either here or in your inventory!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/shaft",
+      "text": "The most basic and cheapest way of transferring rotational force. This block transfers rotation along a straight axis.$(br2)There's encased variants as well, solid for mechanical or aesthetic use. Right-click with a Casing."
+    },
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/cogwheel",
+      "recipe2": "create:crafting/kinetics/large_cogwheel"
+    },
+    {
+      "type": "text",
+      "text": "While these can be used as fancy-looking Shafts, their main use is to relay rotational force away from a Shaft. They will turn any other Cogwheels they're meshing with (interlocking teeth), which will reverse the direction of rotation.$(br2)The larger variant will only connect to the small ones diagonally (changing the rotation speed), and to other large cogwheels at 90 degrees."
+    },
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/belt_connector",
+      "text": "Belts are placed using a Connector item. To create a Belt, right-click the Connector on a Shaft. You should see purple particles. These will turn green when you're looking at a valid second Shaft. Right-click again to finish the belt."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Stressful Transit$()$(br2)The default mod configuration settings give Belts a small stress cost, so be wary of using them as a power panacea. However, this cost pays for some handy benefits: Belts can move items and entities that land on top of them. Factory floors and escalators made simple!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/gearbox",
+      "recipe2": "create:crafting/kinetics/vertical_gearboxfrom_conversion"
+    },
+    {
+      "type": "text",
+      "text": "The Gearbox is a simple block that relays rotation between four of its faces while reversing direction. Think of it as a set of cogwheels squished into a box!$(br2)You can make a vertical variant either by putting a gearbox in your crafting grid (and vice versa), or by rotating one with a Wrench."
+    },
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/encased_chain_drive",
+      "text": "A versatile method of transmission that works by connecting to other Chain Drives in a straight line. Their textures will change to indicate a network's been joined. They'll still link if there's a $(o)twist$(), but won't permit   a shaft straight out the end."
+    },
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/adjustable_chain_gearshift",
+      "text": "A variant of the Chain Drive that accepts redstone control. It has an internal $(o)gear ratio$() between the Shaft and Drive-network connections. Applying analog redstone to it will vary the ratio between 1:1 at 0 and 1:2 at 15 (Shaft:Drive)."
+    },
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/clutch",
+      "text": "An encased shaft that can be controlled by redstone. When powered by redstone, it will disconnect its internal Shaft and stop transmitting rotation through."
+    },
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/gearshift",
+      "text": "Similar to a Clutch, this is controlled by redstone. Normally behaves as a shaft. When powered by redstone, it will internally reverse rotation, behaving like a Gearbox."
+    },
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/sequenced_gearshift",
+      "text": "A more advanced Gearshift that can be programmed with various simple behaviors in a GUI. Sending it a redstone signal will cause it to begin stepping through the assigned behaviors."
+    },
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/rotation_speed_controller",
+      "text": "A high-tech device for regulating speed. Has a front panel where a number can be scrolled to set - when given a rotational input, it will try to drive a Large Cogwheel mounted above it at the set speed."
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 {
-  "name": "Generate and Convey",
+  "name": "Spinning Stress",
   "icon": "create:hand_crank",
   "category": "introduction",
+  "sortnum": 1,
   "pages": [
     {
       "type": "text",

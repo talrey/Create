@@ -1,0 +1,17 @@
+{
+  "name": "Basin",
+  "icon": "create:basin",
+  "category": "contraptions",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/basin",
+      "text": "Basins are a bit too simple to really be a 'Contraption'. They are, however, excellent partners. They can hold fluids or item stacks, and other machines can interact with their contents."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Automatin' Basin$()$(br2)Basins can be given a Filter setting, which specifies what recipes they will create when other machines interact with them. They can also automatically output contents to inventories, Pipes, or Belts below their sides."
+    }
+  ]
+}

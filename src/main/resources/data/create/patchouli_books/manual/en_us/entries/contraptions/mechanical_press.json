@@ -1,0 +1,17 @@
+{
+  "name": "Mechanical Press",
+  "icon": "create:mechanical_press",
+  "category": "contraptions",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/mechanical_press",
+      "text": "Hitting things with a heavy, flat surface is a simple task, but a useful one. The Press has two faces that accept rotational power from the side and will pass it through like an encased Shaft."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Impressive and Impactful$()$(br2)The Press has two modes of operation, depending mainly on what's below it. If the Press's head will drop down to hit a $(o)solid block$() or $(o)Belt$(), the Press will follow $(l)stamping$() recipes. If instead the Press's head will drop into a $(o)Basin$(), the press will $(l)compact$() items."
+    }
+  ]
+}

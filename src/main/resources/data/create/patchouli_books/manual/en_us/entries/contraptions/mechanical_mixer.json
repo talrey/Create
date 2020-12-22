@@ -1,0 +1,17 @@
+{
+  "name": "Mechanical Mixer",
+  "icon": "create:mechanical_mixer",
+  "category": "contraptions",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/mechanical_mixer",
+      "recipe2": "create:crafting/kinetics/whisk"
+    },
+    {
+      "type": "text",
+      "text": "the Mixer works with a Basin in much the same way a Press does. It's capable of scattering a compressed material, or blending components into a smooth mixture. The Mixer does require a certain minimum speed to make the whisk effective, so study the $(l:introduction/3_overview_trans)tactics of transmission$() if it won't run. Or, you know, turn off that redstone signal you applied to it specifically to stop it from running."
+    }
+  ]
+}

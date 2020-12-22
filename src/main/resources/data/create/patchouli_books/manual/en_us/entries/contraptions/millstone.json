@@ -1,0 +1,17 @@
+{
+  "name": "Millstone",
+  "icon": "create:millstone",
+  "category": "contraptions",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/millstone",
+      "text": "Millstones are a basic machine with a singular purpose: to crush materials into more fine-grained forms. Their top face functions like a hopper, and they can be powered with direct rotational power from below. Their sides act like a   Cogwheel."
+    },
+    {
+      "type": "text",
+      "text": "$(l)Where there's a Mill, there's a May?$()$(br2)Millstones will toss particles out while working. You can input items from the world on top, or directly with a $(l:logistics)logistics$() block via any face. Processing time depends on speed. Right-click or use another logistics block to pull the item out."
+    }
+  ]
+}

@@ -2,6 +2,7 @@
   "name": "Mechanical Crafter",
   "icon": "create:mechanical_crafter",
   "category": "contraptions",
+  "sortnum": 10,
   "pages": [
     {
       "type": "text",

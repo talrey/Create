@@ -1,8 +1,8 @@
 {
   "name": "Mechanical Press",
   "icon": "create:mechanical_press",
-  "category": "contraptions",
-  "sortnum": 2,
+  "category": "consumers",
+  "sortnum": 4,
   "pages": [
     {
       "type": "crafting",

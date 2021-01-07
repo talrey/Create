@@ -1,0 +1,15 @@
+{
+  "name": "Zinc Block",
+  "icon": "create:zinc_block",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A block of pure zinc."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:zinc_block"
+    }
+  ]
+}

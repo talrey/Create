@@ -1,0 +1,15 @@
+{
+  "name": "Copper Tiles",
+  "icon": "create:copper_tiles",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A decorative block that might look good as a path."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:copper_tiles"
+    }
+  ]
+}

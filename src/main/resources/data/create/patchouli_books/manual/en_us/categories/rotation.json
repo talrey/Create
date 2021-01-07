@@ -1,0 +1,6 @@
+{
+  "name": "Rotation",
+  "description": "Relaying rotation, and swapping stress with speed.",
+  "icon": "create:cogwheel",
+  "sortnum": 3
+}

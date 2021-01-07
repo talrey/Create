@@ -1,0 +1,15 @@
+{
+  "name": "Zinc Ore",
+  "icon": "create:zinc_ore",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A hard ore that appears in somewhat deep places."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:zinc_ore"
+    }
+  ]
+}

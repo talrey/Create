@@ -1,0 +1,15 @@
+{
+  "name": "Powered Toggle Latch",
+  "icon": "create:powered_toggle_latch",
+  "category": "redstone",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A compact way to turn on and off a redstone signal."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:powered_toggle_latch"
+    }
+  ]
+}

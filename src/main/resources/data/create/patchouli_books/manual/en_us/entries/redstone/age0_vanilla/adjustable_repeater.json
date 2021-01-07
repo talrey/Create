@@ -1,0 +1,15 @@
+{
+  "name": "Adjustable Repeater",
+  "icon": "create:adjustable_repeater",
+  "category": "redstone",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A repeater variant with a conveniently large range of delay times."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:adjustable_repeater"
+    }
+  ]
+}

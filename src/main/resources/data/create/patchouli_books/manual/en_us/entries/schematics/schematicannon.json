@@ -1,0 +1,15 @@
+{
+  "name": "Schematicannon",
+  "icon": "create:schematicannon",
+  "category": "schematics",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The schematicannon builds your schematics into the world."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:schematic_table"
+    }
+  ]
+}

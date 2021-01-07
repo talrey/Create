@@ -1,0 +1,15 @@
+{
+  "name": "Pulse Repeater",
+  "icon": "create:pulse_repeater",
+  "category": "redstone",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A new variety of repeater for when you need a short pulse but not right now."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:pulse_repeater"
+    }
+  ]
+}

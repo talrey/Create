@@ -1,0 +1,15 @@
+{
+  "name": "Adjustable Pulse Repeater",
+  "icon": "create:adjustable_pulse_repeater",
+  "category": "redstone",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A handy combination of the pulse repeater and adjustable repeater, for when you need a short pulse but later today."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:adjustable_pulse_repeater"
+    }
+  ]
+}

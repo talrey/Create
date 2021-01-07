@@ -1,8 +1,8 @@
 {
   "name": "Mechanical Mixer",
   "icon": "create:mechanical_mixer",
-  "category": "contraptions",
-  "sortnum": 3,
+  "category": "consumers",
+  "sortnum": 6,
   "pages": [
     {
       "type": "crafting",

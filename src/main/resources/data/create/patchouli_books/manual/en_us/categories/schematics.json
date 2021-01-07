@@ -2,5 +2,5 @@
   "name": "Schematics",
   "description": "Schematics save site selections for successful sharing.",
   "icon": "create:schematic_and_quill",
-  "sortnum": 3
+  "sortnum": 9
 }

@@ -1,0 +1,15 @@
+{
+  "name": "Copper Shingles",
+  "icon": "create:copper_shingles",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A decorative block that might look good on a roof."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:copper_shingles"
+    }
+  ]
+}

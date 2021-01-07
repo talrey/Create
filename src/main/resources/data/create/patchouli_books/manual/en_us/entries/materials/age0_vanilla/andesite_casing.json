@@ -1,0 +1,15 @@
+{
+  "name": "Andesite Casing",
+  "icon": "create:andesite_casing",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Crafted of sturdy wood and durable alloy, this might be useful for all sorts of machines."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:andesite_casing"
+    }
+  ]
+}

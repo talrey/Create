@@ -1,8 +1,8 @@
 {
   "name": "Basin",
   "icon": "create:basin",
-  "category": "contraptions",
-  "sortnum": 1,
+  "category": "consumers",
+  "sortnum": 3,
   "pages": [
     {
       "type": "crafting",

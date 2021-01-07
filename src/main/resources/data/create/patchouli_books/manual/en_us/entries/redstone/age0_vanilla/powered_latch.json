@@ -1,0 +1,15 @@
+{
+  "name": "Powered Latch",
+  "icon": "create:powered_latch",
+  "category": "redstone",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A compact way to set and reset a redstone signal."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:powered_latch"
+    }
+  ]
+}

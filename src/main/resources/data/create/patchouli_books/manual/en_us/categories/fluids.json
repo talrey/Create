@@ -1,0 +1,6 @@
+{
+  "name": "Fluids",
+  "description": "Fill, flood, or filter fast flows. Fwoosh!",
+  "icon": "create:fluid_pipe",
+  "sortnum": 6
+}

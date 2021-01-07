@@ -1,8 +1,8 @@
 {
   "name": "Millstone",
   "icon": "create:millstone",
-  "category": "contraptions",
-  "sortnum": 0,
+  "category": "consumers",
+  "sortnum": 2,
   "pages": [
     {
       "type": "crafting",

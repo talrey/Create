@@ -1,0 +1,15 @@
+{
+  "name": "Copper Block",
+  "icon": "create:copper_block",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A block of pure copper."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:copper_block"
+    }
+  ]
+}

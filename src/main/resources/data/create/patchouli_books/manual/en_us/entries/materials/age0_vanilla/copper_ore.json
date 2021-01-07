@@ -1,0 +1,15 @@
+{
+  "name": "Copper Ore",
+  "icon": "create:copper_ore",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A soft ore that appears near the surface."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:copper_ore"
+    }
+  ]
+}

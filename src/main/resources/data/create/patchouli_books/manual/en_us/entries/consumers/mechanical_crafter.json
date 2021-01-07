@@ -1,8 +1,8 @@
 {
   "name": "Mechanical Crafter",
   "icon": "create:mechanical_crafter",
-  "category": "contraptions",
-  "sortnum": 10,
+  "category": "consumers",
+  "sortnum": 13,
   "pages": [
     {
       "type": "text",

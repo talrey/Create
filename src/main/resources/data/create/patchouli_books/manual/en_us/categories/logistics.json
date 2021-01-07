@@ -1,6 +1,6 @@
 {
   "name": "Logistics",
-  "description": "Sorting structures, special sensors, and signal systems.",
+  "description": "Leverage this list to lift and load loot, or organize objects.",
   "icon": "create:belt_connector",
-  "sortnum": 2
+  "sortnum": 5
 }

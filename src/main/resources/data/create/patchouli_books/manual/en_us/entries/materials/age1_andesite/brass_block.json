@@ -1,0 +1,15 @@
+{
+  "name": "Brass Block",
+  "icon": "create:brass_block",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A block of solid brass. Decadence!"
+    },
+    {
+      "type": "spotlight",
+      "item": "create:brass_block"
+    }
+  ]
+}

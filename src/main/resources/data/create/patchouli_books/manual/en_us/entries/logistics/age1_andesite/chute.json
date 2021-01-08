@@ -1,0 +1,15 @@
+{
+  "name": "Chute",
+  "icon": "create:chute",
+  "category": "logistics",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A bit like a Hopper without an inventory, a Chute will pull items from above it and immediately drop them. Fans can be used to control item flow through them, too."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:chute"
+    }
+  ]
+}

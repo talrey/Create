@@ -1,0 +1,15 @@
+{
+  "name": "Mechanical Arm",
+  "icon": "create:mechanical_arm",
+  "category": "logistics",
+  "pages": [
+    {
+      "type": "text",
+      "text": "An advanced logistics handler that can grab items and deposit them in a designated place."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:mechanical_arm"
+    }
+  ]
+}

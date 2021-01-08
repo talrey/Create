@@ -1,0 +1,15 @@
+{
+  "name": "Spout",
+  "icon": "create:spout",
+  "category": "fluids",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Container items such as buckets that pass under this block (or are placed on a Depot) will be filled if the Spout has fluid contents."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:spout"
+    }
+  ]
+}

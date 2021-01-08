@@ -1,0 +1,15 @@
+{
+  "name": "Deployer",
+  "icon": "create:deployer",
+  "category": "consumers",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A handy helper that can use items just like a player! Capable of left or right clicks, and can be mounted to contraptions."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:deployer"
+    }
+  ]
+}

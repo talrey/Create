@@ -1,0 +1,15 @@
+{
+  "name": "Mechanical Plough",
+  "icon": "create:mechanical_plough",
+  "category": "contraptions",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A contraption attachment that can break nonsolid blocks and till soil as it passes by."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:mechanical_plough"
+    }
+  ]
+}

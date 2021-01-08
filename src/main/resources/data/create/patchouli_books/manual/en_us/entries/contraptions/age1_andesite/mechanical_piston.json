@@ -1,0 +1,15 @@
+{
+  "name": "Mechanical Piston",
+  "icon": "create:mechanical_piston",
+  "category": "contraptions",
+  "pages": [
+    {
+      "type": "text",
+      "text": "An extendable piston capable of moving chassis and other blocks."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:mechanical_piston"
+    }
+  ]
+}

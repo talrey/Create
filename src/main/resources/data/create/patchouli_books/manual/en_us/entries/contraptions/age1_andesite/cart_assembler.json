@@ -1,0 +1,15 @@
+{
+  "name": "Cart Assembler",
+  "icon": "create:cart_assembler",
+  "category": "contraptions",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Pass a minecart through this to assemble chassis or other blocks onto the cart as a moving contraption."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:cart_assembler"
+    }
+  ]
+}

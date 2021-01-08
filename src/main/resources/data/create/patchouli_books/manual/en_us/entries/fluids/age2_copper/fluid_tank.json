@@ -1,0 +1,15 @@
+{
+  "name": "Fluid Tank",
+  "icon": "create:fluid_tank",
+  "category": "fluids",
+  "pages": [
+    {
+      "type": "text",
+      "text": "These compact fluid storage blocks can merge to act as a single multiblock tank with a square base."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:fluid_tank"
+    }
+  ]
+}

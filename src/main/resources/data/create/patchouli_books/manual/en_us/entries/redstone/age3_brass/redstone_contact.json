@@ -1,0 +1,15 @@
+{
+  "name": "Redstone Contact",
+  "icon": "create:redstone_contact",
+  "category": "redstone",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A block that works in pairs. Will emit a signal if two Contacts' proper faces are touching."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:redstone_contact"
+    }
+  ]
+}

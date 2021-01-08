@@ -1,0 +1,15 @@
+{
+  "name": "Content Observer",
+  "icon": "create:content_observer",
+  "category": "redstone",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Will detect the contents of belts and other machines next to it."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:content_observer"
+    }
+  ]
+}

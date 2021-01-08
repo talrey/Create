@@ -1,0 +1,15 @@
+{
+  "name": "Shadow Casing",
+  "icon": "create:shadow_steel_casing",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The shadowsteel in its construction makes it less heavy than it appears. Will that be useful?..."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:shadow_steel_casing"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Blaze Burner",
+  "icon": "create:blaze_burner",
+  "category": "consumers",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Blazes are a portable source of extreme heat. There must be a way to harness their power..."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:empty_blaze_burner"
+    },
+    {
+      "type": "spotlight",
+      "item": "create:blaze_burner",
+      "text": "This page will be hidden until you figure out the conversion. #ToDo"
+    }
+  ]
+}

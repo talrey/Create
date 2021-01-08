@@ -1,0 +1,15 @@
+{
+  "name": "Sail",
+  "icon": "create:white_sail",
+  "category": "generators",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A handy component for making windmills."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:white_sail"
+    }
+  ]
+}

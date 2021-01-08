@@ -1,0 +1,15 @@
+{
+  "name": "Brass Funnel",
+  "icon": "create:brass_funnel",
+  "category": "logistics",
+  "pages": [
+    {
+      "type": "text",
+      "text": "An advanced version of the Andesite Funnel, the Brass version has a filter slot."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:brass_funnel"
+    }
+  ]
+}

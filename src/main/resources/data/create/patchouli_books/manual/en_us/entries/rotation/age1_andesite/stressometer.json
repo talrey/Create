@@ -1,0 +1,15 @@
+{
+  "name": "Stressometer",
+  "icon": "create:stressometer",
+  "category": "rotation",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A simple device to display the amount of stress capacity in a rotational network. Place it in a crafting grid to get a Speedometer."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:stressometer"
+    }
+  ]
+}

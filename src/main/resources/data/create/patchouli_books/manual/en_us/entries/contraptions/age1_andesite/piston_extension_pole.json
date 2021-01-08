@@ -1,0 +1,15 @@
+{
+  "name": "Extension Pole",
+  "icon": "create:piston_extension_pole",
+  "category": "contraptions",
+  "pages": [
+    {
+      "type": "text",
+      "text": "These determine how far a $(l:mechanical_piston)mechanical piston$() can reach."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:piston_extension_pole"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Brass Casing",
+  "icon": "create:brass_casing",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Timeless wood and elegant brass make this a suitable case for delicate and advanced machinery."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:brass_casing"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Mechanical Belt",
+  "icon": "create:belt_connector",
+  "category": "logistics",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A common sight in most factories, a Belt can carry items and entities in a straight line."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:belt_connector"
+    }
+  ]
+}

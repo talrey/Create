@@ -1,0 +1,15 @@
+{
+  "name": "Smart Pipe",
+  "icon": "create:smart_fluid_pipe",
+  "category": "fluids",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A variant pipe that includes a filter slot for determining what fluids can pass through."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:smart_fluid_pipe"
+    }
+  ]
+}

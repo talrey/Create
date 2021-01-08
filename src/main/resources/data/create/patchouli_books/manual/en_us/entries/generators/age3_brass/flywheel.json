@@ -1,0 +1,15 @@
+{
+  "name": "Flywheel",
+  "icon": "create:flywheel",
+  "category": "generators",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A large, heavy wheel made of brass. It spins nicely. Connect it to a Furnace Engine to produce lots of power."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:flywheel"
+    }
+  ]
+}

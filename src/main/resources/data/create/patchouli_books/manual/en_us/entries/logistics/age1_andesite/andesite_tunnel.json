@@ -1,0 +1,15 @@
+{
+  "name": "Andesite Tunnel",
+  "icon": "create:andesite_tunnel",
+  "category": "logistics",
+  "pages": [
+    {
+      "type": "text",
+      "text": "An Andesite Tunnel can cover a Belt for aesthetic or technical purposes."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:andesite_tunnel"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Mechanical Harvester",
+  "icon": "create:mechanical_harvester",
+  "category": "contraptions",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A contraption attachment that can harvest grown crops and replants them in the process as it passes over them."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:mechanical_harvester"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Radial Chassis",
+  "icon": "create:radial_chassis",
+  "category": "contraptions",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Radial chassis can be used to assemble blocks in an area around them into a contraption."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:radial_chassis"
+    }
+  ]
+}

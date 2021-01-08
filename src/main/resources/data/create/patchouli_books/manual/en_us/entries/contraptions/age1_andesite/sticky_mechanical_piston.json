@@ -1,0 +1,15 @@
+{
+  "name": "Sticky Mech Piston",
+  "icon": "create:sticky_mechanical_piston",
+  "category": "contraptions",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A variant of the $(l:mechanical_piston)mechanical piston$() that can pull and push."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:sticky_mechanical_piston"
+    }
+  ]
+}

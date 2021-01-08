@@ -1,0 +1,15 @@
+{
+  "name": "Sail Frame",
+  "icon": "create:sail_frame",
+  "category": "generators",
+  "pages": [
+    {
+      "type": "text",
+      "text": "This could be useful for a powerful windmill, but it won't catch much wind the way it is right now."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:sail_frame"
+    }
+  ]
+}

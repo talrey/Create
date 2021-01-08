@@ -1,0 +1,15 @@
+{
+  "name": "Copper Casing",
+  "icon": "create:copper_casing",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Constructed of wood and copper plates, this might be useful for fluid-handling machinery."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:copper_casing"
+    }
+  ]
+}

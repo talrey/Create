@@ -1,0 +1,15 @@
+{
+  "name": "Clockwork Bearing",
+  "icon": "create:clockwork_bearing",
+  "category": "contraptions",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A variant mechanical bearing that turns with the time of day, regardless of input speed."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:clockwork_bearing"
+    }
+  ]
+}

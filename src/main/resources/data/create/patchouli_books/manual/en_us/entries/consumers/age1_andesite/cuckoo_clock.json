@@ -1,0 +1,15 @@
+{
+  "name": "Cuckoo Clock",
+  "icon": "create:cuckoo_clock",
+  "category": "consumers",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uses rotational power to tell the time. Has a pop-out chime at noon and sunset!"
+    },
+    {
+      "type": "spotlight",
+      "item": "create:cuckoo_clock"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Hose Pulley",
+  "icon": "create:hose_pulley",
+  "category": "fluids",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Rotational power will raise and lower this block's hose to reach pools of fluid."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:hose_pulley"
+    }
+  ]
+}

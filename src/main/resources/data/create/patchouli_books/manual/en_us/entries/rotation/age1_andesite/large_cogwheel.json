@@ -1,0 +1,15 @@
+{
+  "name": "Large Cogwheel",
+  "icon": "create:large_cogwheel",
+  "category": "rotation",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A variant cogwheel that can turn corners or form a gear ratio for speed changes."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:large_cogwheel"
+    }
+  ]
+}

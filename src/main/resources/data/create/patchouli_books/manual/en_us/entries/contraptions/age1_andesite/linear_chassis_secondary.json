@@ -1,0 +1,15 @@
+{
+  "name": "Secondary Chassis",
+  "icon": "create:secondary_linear_chassis",
+  "category": "contraptions",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A variant of linear chassis. The two types won't merge, so this can be used to create adjoining but separate contraptions."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:secondary_linear_chassis"
+    }
+  ]
+}

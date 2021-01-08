@@ -1,0 +1,15 @@
+{
+  "name": "Adjustable Crate",
+  "icon": "create:adjustable_crate",
+  "category": "logistics",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A chest-like block with a configurable inventory size. It can merge with an adjacent crate in any direction."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:adjustable_crate"
+    }
+  ]
+}

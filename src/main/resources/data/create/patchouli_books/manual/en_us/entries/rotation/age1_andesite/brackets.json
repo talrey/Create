@@ -1,0 +1,19 @@
+{
+  "name": "Brackets",
+  "icon": "create:wooden_bracket",
+  "category": "rotation",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A decorative component that can be connected to rotational devices like Shafts and Cogwheels."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:wooden_bracket"
+    },
+    {
+      "type": "spotlight",
+      "item": "create:metal_bracket"
+    }
+  ]
+}

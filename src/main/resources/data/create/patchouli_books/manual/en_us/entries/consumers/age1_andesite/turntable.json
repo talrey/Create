@@ -1,0 +1,15 @@
+{
+  "name": "Turntable",
+  "icon": "create:turntable",
+  "category": "consumers",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uses rotational power to spin things around. It's fun, but maybe it's more useful as a crafting component..."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:turntable"
+    }
+  ]
+}

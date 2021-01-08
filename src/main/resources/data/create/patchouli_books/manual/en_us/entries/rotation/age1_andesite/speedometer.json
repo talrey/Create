@@ -1,0 +1,15 @@
+{
+  "name": "Speedometer",
+  "icon": "create:speedometer",
+  "category": "rotation",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A simple device to indicate the speed of rotational power. Place it in a crafting grid to get a Stressometer."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:speedometer"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Depot",
+  "icon": "create:depot",
+  "category": "logistics",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A Depot serves as a convenient to hold or display an item, and can be an interaction point with other machines."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:depot"
+    }
+  ]
+}

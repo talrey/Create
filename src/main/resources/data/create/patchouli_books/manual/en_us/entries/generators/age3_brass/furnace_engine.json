@@ -1,0 +1,15 @@
+{
+  "name": "Furnace Engine",
+  "icon": "create:furnace_engine",
+  "category": "generators",
+  "pages": [
+    {
+      "type": "text",
+      "text": "An advanced source of power based on the heat of an active furnace. It needs an attached Flywheel."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:furnace_engine"
+    }
+  ]
+}

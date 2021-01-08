@@ -1,0 +1,15 @@
+{
+  "name": "Nozzle",
+  "icon": "create:nozzle",
+  "category": "consumers",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A breathable mesh block. Attach to an Encased Fan to spread the fan's affect over a wide area."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:nozzle"
+    }
+  ]
+}

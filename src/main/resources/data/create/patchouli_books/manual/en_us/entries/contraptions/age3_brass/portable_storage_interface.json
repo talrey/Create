@@ -1,0 +1,15 @@
+{
+  "name": "Storage Interface",
+  "icon": "create:portable_storage_interface",
+  "category": "contraptions",
+  "pages": [
+    {
+      "type": "text",
+      "text": "An extendable tube that can pair up to transfer items to and from a contraption in motion."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:portable_storage_interface"
+    }
+  ]
+}

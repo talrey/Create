@@ -1,0 +1,15 @@
+{
+  "name": "Hand Crank",
+  "icon": "create:hand_crank",
+  "category": "generators",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Muscle power is a decent way to get the gears turning. Exercise will probably make you hungry, though."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:hand_crank"
+    }
+  ]
+}

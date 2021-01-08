@@ -1,0 +1,15 @@
+{
+  "name": "Rope Pulley",
+  "icon": "create:rope_pulley",
+  "category": "contraptions",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A basic machine that can lift and lower chassis and other blocks."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:rope_pulley"
+    }
+  ]
+}

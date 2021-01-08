@@ -1,0 +1,15 @@
+{
+  "name": "Fluid Pipe",
+  "icon": "create:fluid_pipe",
+  "category": "fluids",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A basic component of fluid logistics."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:fluid_pipe"
+    }
+  ]
+}

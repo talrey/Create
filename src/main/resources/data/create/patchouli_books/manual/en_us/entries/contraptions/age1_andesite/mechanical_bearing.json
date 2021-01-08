@@ -1,0 +1,15 @@
+{
+  "name": "Mechanical Bearing",
+  "icon": "create:mechanical_bearing",
+  "category": "contraptions",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A machine capable of rotating chassis and other blocks."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:mechanical_bearing"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Clutch",
+  "icon": "create:clutch",
+  "category": "rotation",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A redstone signal will disconnect the two sides of this block's internal Shaft."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:clutch"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Encased Fan",
+  "icon": "create:encased_fan",
+  "category": "generators",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Giving a Fan a redstone signal will convert it into a compact source of power. Just put it over a heat source and let thermodynamics do its thing."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:encased_fan"
+    }
+  ]
+}

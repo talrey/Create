@@ -1,0 +1,15 @@
+{
+  "name": "Radiant Casing",
+  "icon": "create:refined_radiance_casing",
+  "category": "materials",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The wooden panels diffuse the brilliant light of refined radiance into a comfortable glow."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:refined_radiance_casing"
+    }
+  ]
+}

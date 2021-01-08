@@ -1,0 +1,15 @@
+{
+  "name": "Fluid Valve",
+  "icon": "create:fluid_valve",
+  "category": "fluids",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Rotational power input can closed and open this pipe to control fluid flow."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:fluid_valve"
+    }
+  ]
+}

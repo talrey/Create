@@ -1,0 +1,15 @@
+{
+  "name": "Speed Controller",
+  "icon": "create:rotation_speed_controller",
+  "category": "rotation",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Drives a Large Cogwheel connected above it at a constant speed when given any speed of input rotational power."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:rotation_speed_controller"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Mechanical Saw",
+  "icon": "create:mechanical_saw",
+  "category": "consumers",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Uses rotational power to chop blocks like an axe. Can be attached to a contraption for portable logging."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:mechanical_saw"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Linear Chassis",
+  "icon": "create:linear_chassis",
+  "category": "contraptions",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Chassis blocks can be used to assemble lines of blocks as a contraption."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:linear_chassis"
+    }
+  ]
+}

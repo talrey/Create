@@ -1,0 +1,15 @@
+{
+  "name": "Water Wheel",
+  "icon": "create:water_wheel",
+  "category": "generators",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A classic source of rotational power that's driven by flowing water."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:water_wheel"
+    }
+  ]
+}

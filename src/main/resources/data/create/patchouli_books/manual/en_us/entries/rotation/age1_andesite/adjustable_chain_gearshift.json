@@ -1,0 +1,15 @@
+{
+  "name": "Chain Gearshift",
+  "icon": "create:adjustable_chain_gearshift",
+  "category": "rotation",
+  "pages": [
+    {
+      "type": "text",
+      "text": "An applied analog redstone signal will vary the ratio between this block's internal chain and exposed Shaft."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:adjustable_chain_gearshift"
+    }
+  ]
+}

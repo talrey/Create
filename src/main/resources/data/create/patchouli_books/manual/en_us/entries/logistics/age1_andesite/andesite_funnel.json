@@ -1,0 +1,15 @@
+{
+  "name": "Andesite Funnel",
+  "icon": "create:andesite_funnel",
+  "category": "logistics",
+  "pages": [
+    {
+      "type": "text",
+      "text": "An Andesite Funnel can pull items out of an inventory, or insert them. It can't move directly between two inventories though."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:andesite_funnel"
+    }
+  ]
+}

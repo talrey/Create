@@ -1,0 +1,15 @@
+{
+  "name": "stockpile Switch",
+  "icon": "create:stockpile_switch",
+  "category": "redstone",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Measures the amount of items in an adjacent inventory, with an adjustable hysteresis."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:stockpile_switch"
+    }
+  ]
+}

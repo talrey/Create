@@ -1,0 +1,15 @@
+{
+  "name": "Mechanical Pump",
+  "icon": "create:mechanical_pump",
+  "category": "fluids",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A machine that turns rotational power into fluid motion."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:mechanical_pump"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Redstone Link",
+  "icon": "create:redstone_link",
+  "category": "redstone",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A wireless redstone device that can send or receive on a set channel."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:redstone_link"
+    }
+  ]
+}

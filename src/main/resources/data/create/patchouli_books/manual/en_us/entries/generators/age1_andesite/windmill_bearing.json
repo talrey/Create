@@ -1,0 +1,15 @@
+{
+  "name": "Windmill Bearing",
+  "icon": "create:windmill_bearing",
+  "category": "generators",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A variant of the Mechanical Bearing, this machine is designed to generate power from rotation rather than the other way around."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:windmill_bearing"
+    }
+  ]
+}

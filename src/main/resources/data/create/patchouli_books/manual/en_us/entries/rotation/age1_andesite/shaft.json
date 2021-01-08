@@ -1,0 +1,15 @@
+{
+  "name": "Shaft",
+  "icon": "create:shaft",
+  "category": "rotation",
+  "pages": [
+    {
+      "type": "text",
+      "text": "the most basic method of transmitting rotational power, it connects in a straight line."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:shaft"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Brass Tunnel",
+  "icon": "create:brass_tunnel",
+  "category": "logistics",
+  "pages": [
+    {
+      "type": "text",
+      "text": "An advanced version of the Andesite Tunnel, the Brass version has a filter slot and can merge with adjacent Brass Tunnels to sort items."
+    },
+    {
+      "type": "spotlight",
+      "item": "create:brass_tunnel"
+    }
+  ]
+}

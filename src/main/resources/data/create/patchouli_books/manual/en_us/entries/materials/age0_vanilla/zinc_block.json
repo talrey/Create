@@ -2,14 +2,13 @@
   "name": "Zinc Block",
   "icon": "create:zinc_block",
   "category": "materials",
+  "sortnum": 1,
+  "anchor": "zinc_block",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/materials/zinc_block_from_compacting",
       "text": "A block of pure zinc."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:zinc_block"
     }
   ]
 }

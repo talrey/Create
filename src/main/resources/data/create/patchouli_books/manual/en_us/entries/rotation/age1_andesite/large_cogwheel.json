@@ -2,14 +2,37 @@
   "name": "Large Cogwheel",
   "icon": "create:large_cogwheel",
   "category": "rotation",
+  "sortnum": 2,
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/large_cogwheel",
       "text": "A variant cogwheel that can turn corners or form a gear ratio for speed changes."
     },
     {
-      "type": "spotlight",
-      "item": "create:large_cogwheel"
+      "type": "multiblock",
+      "name": "Large Cogs",
+      "multiblock": {
+        "pattern": [
+          [
+            " I ",
+            " 0I",
+            "  X"
+          ],
+          [
+            " C ",
+            "  L",
+            "   "
+          ]
+        ],
+        "mapping": {
+          "I": "create:shaft",
+          "C": "create:cogwheel",
+          "L": "create:large_cogwheel",
+          "X": "create:large_cogwheel[axis=x]"
+        }
+      },
+      "enable_visualize": false
     }
   ]
 }

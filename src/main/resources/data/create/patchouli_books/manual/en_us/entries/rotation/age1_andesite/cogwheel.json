@@ -2,14 +2,37 @@
   "name": "Cogwheel",
   "icon": "create:cogwheel",
   "category": "rotation",
+  "sortnum": 1,
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/cogwheel",
       "text": "A basic component of rotational power transmission that can turn adjacent cogs with its teeth."
     },
     {
-      "type": "spotlight",
-      "item": "create:cogwheel"
+      "type": "multiblock",
+      "name": "Cogwheels",
+      "multiblock": {
+        "pattern": [
+          [
+            " I ",
+            " 0I",
+            "-X "
+          ],
+          [
+            " CC",
+            "  C",
+            "-X-"
+          ]
+        ],
+        "mapping": {
+          "I": "create:shaft",
+          "C": "create:cogwheel",
+          "X": "create:cogwheel[axis=z]",
+          "-": "create:shaft[axis=z]"
+        }
+      },
+      "enable_visualize": false
     }
   ]
 }

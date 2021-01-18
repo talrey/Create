@@ -2,14 +2,14 @@
   "name": "Brass Block",
   "icon": "create:brass_block",
   "category": "materials",
+  "sortnum": 6,
+  "anchor": "brass_block",
+  "advancement": "create:brass",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/materials/brass_block_from_compacting",
       "text": "A block of solid brass. Decadence!"
-    },
-    {
-      "type": "spotlight",
-      "item": "create:brass_block"
     }
   ]
 }

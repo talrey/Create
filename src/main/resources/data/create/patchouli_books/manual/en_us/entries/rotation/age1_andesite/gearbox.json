@@ -2,19 +2,39 @@
   "name": "Gearbox",
   "icon": "create:gearbox",
   "category": "rotation",
+  "sortnum": 3,
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/gearbox",
+      "recipe2": "create:crafting/kinetics/gearboxfrom_conversion"
+    },
+    {
+      "type": "multiblock",
+      "name": "Gearboxes",
+      "multiblock": {
+        "pattern": [
+          [
+            "  I",
+            " 0 ",
+            "   "
+          ],
+          [
+            "--V",
+            "-G ",
+            " i "
+          ]
+        ],
+        "mapping": {
+          "I": "create:shaft",
+          "G": "create:gearbox",
+          "V": "create:gearbox[axis=x]",
+          "-": "create:shaft[axis=z]",
+          "i": "create:shaft[axis=x]"
+        }
+      },
+      "enable_visualize": false,
       "text": "A set of cogwheels in a case. It allows rotational power to turn corners and reverse spin."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:gearbox"
-    },
-    {
-      "type": "spotlight",
-      "item": "create:vertical_gearbox",
-      "text": "There's a vertical variant too. Stick a gearbox in your crafting grid or click it with a Wrench. Do it again to return it to the horizontal type."
     }
   ]
 }

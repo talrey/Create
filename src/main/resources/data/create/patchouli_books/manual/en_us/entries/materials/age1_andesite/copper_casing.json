@@ -2,14 +2,14 @@
   "name": "Copper Casing",
   "icon": "create:copper_casing",
   "category": "materials",
+  "sortnum": 4,
+  "anchor": "copper_casing",
+  "advancement": "create:copper_casing",
   "pages": [
     {
-      "type": "text",
-      "text": "Constructed of wood and copper plates, this might be useful for fluid-handling machinery."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:copper_casing"
+      "type": "crafting",
+      "recipe": "create:crafting/materials/copper_casing",
+      "text": "Constructed of wood and copper plates, this might be useful for fluid-handling machinery. Right click to apply it to $(l:fluids/age1_andesite/fluid_pipe)Fluid Pipes$() to change their look."
     }
   ]
 }

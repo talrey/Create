@@ -1,0 +1,14 @@
+{
+  "name": "Copper Tiles",
+  "icon": "create:copper_tiles",
+  "category": "materials",
+  "sortnum": 3,
+  "anchor": "copper_tiles",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "create:copper_tiles",
+      "text": "A decorative block with a diamond texture that might look good as a roof.$(br2)Pick Tier: Stone$(br2)Trivia: Flat plates of copper have been used as roofing for a long time in real life!"
+    }
+  ]
+}

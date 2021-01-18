@@ -2,14 +2,14 @@
   "name": "Brass Casing",
   "icon": "create:brass_casing",
   "category": "materials",
+  "sortnum": 5,
+  "anchor": "brass_casing",
+  "advancement": "create:brass",
   "pages": [
     {
-      "type": "text",
-      "text": "Timeless wood and elegant brass make this a suitable case for delicate and advanced machinery."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:brass_casing"
+      "type": "crafting",
+      "recipe": "create:crafting/materials/brass_casing",
+      "text": "Timeless wood and elegant brass make this a suitable case for delicate and advanced machinery. Right click to apply it to $(l:rotation/age1_andesite/shaft)Shafts$() or $(l:logistics/age1_andesite/mechanical_belt)Belts$() and change their look."
     }
   ]
 }

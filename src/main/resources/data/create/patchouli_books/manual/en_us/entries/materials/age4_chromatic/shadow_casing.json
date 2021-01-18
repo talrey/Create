@@ -2,14 +2,14 @@
   "name": "Shadow Casing",
   "icon": "create:shadow_steel_casing",
   "category": "materials",
+  "sortnum": 7,
+  "anchor": "shadow_steel_casing",
+  "advancement": "create:shadow_steel",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/materials/shadow_steel_casing",
       "text": "The shadowsteel in its construction makes it less heavy than it appears. Will that be useful?..."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:shadow_steel_casing"
     }
   ]
 }

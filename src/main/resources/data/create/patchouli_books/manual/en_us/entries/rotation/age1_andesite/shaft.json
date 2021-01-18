@@ -2,14 +2,37 @@
   "name": "Shaft",
   "icon": "create:shaft",
   "category": "rotation",
+  "anchor": "shaft",
+  "sortnum": 0,
   "pages": [
     {
-      "type": "text",
-      "text": "the most basic method of transmitting rotational power, it connects in a straight line."
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/shaft",
+      "text": "the most basic method of transmitting rotational power, it connects in a straight line.$(br2)Place Assist: right clicking another Shaft will extend the line."
     },
     {
-      "type": "spotlight",
-      "item": "create:shaft"
+      "type": "multiblock",
+      "name": "Shafts",
+      "multiblock": {
+        "pattern": [
+          [
+            " I ",
+            " 0 ",
+            "   "
+          ],
+          [
+            " C ",
+            "---",
+            "   "
+          ]
+        ],
+        "mapping": {
+          "I": "create:shaft",
+          "C": "create:andesite_encased_shaft",
+          "-": "create:shaft[axis=z]"
+        }
+      },
+      "enable_visualize": false
     }
   ]
 }

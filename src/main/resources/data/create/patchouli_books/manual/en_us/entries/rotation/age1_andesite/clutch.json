@@ -2,14 +2,41 @@
   "name": "Clutch",
   "icon": "create:clutch",
   "category": "rotation",
+  "sortnum": 4,
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/clutch",
       "text": "A redstone signal will disconnect the two sides of this block's internal Shaft."
     },
     {
-      "type": "spotlight",
-      "item": "create:clutch"
+      "type": "multiblock",
+      "name": "Clutch Control",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            "I0L",
+            "   "
+          ],
+          [
+            "  i",
+            "V C",
+            "u i"
+          ]
+        ],
+        "mapping": {
+          "I": "create:shaft",
+          "V": "create:clutch",
+          "C": "create:clutch[axis=z]",
+          "L": "minecraft:lever[face=floor]",
+          "u": "minecraft:lever[facing=east]",
+          "I": "create:shaft",
+          "-": "create:shaft[axis=z]",
+          "i": "create:shaft[axis=x]"
+        }
+      },
+      "enable_visualize": false
     }
   ]
 }

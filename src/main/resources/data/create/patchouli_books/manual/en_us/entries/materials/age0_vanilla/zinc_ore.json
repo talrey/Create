@@ -2,14 +2,13 @@
   "name": "Zinc Ore",
   "icon": "create:zinc_ore",
   "category": "materials",
+  "sortnum": 0,
+  "anchor": "zinc_ore",
   "pages": [
     {
-      "type": "text",
-      "text": "A hard ore that appears in somewhat deep places."
-    },
-    {
       "type": "spotlight",
-      "item": "create:zinc_ore"
+      "item": "create:zinc_ore",
+      "text": "A hard ore that appears in somewhat deep places.$(br2)Pick Tier: Iron$(br)Generates At: usually 15 - 70$(br)Vein Size: usually 4 - 14$(br2)Trivia: Generates differently in deserts."
     }
   ]
 }

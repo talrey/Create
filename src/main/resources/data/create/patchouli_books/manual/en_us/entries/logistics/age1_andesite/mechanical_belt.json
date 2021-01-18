@@ -2,6 +2,7 @@
   "name": "Mechanical Belt",
   "icon": "create:belt_connector",
   "category": "logistics",
+  "anchor": "mechanical_belt",
   "pages": [
     {
       "type": "text",

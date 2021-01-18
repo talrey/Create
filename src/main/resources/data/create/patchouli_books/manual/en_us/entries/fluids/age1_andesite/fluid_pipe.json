@@ -2,6 +2,7 @@
   "name": "Fluid Pipe",
   "icon": "create:fluid_pipe",
   "category": "fluids",
+  "anchor": "fluid_pipe",
   "pages": [
     {
       "type": "text",

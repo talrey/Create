@@ -2,14 +2,13 @@
   "name": "Copper Block",
   "icon": "create:copper_block",
   "category": "materials",
+  "sortnum": 1,
+  "anchor": "copper_block",
   "pages": [
     {
-      "type": "text",
-      "text": "A block of pure copper."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:copper_block"
+      "type": "crafting",
+      "recipe": "create:crafting/materials/copper_block_from_compacting",
+      "text": "A block of pure copper. Oxidizes over time to a greenish color.$(br2)Pick Tier: Stone$(br2)Trivia: Hardness decreases with oxidation!"
     }
   ]
 }

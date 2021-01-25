@@ -2,14 +2,12 @@
   "name": "Schematicannon",
   "icon": "create:schematicannon",
   "category": "schematics",
+  "anchor": "schematicannon",
   "pages": [
     {
-      "type": "text",
-      "text": "The schematicannon builds your schematics into the world."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:schematic_table"
+      "type": "crafting",
+      "recipe": "create:crafting/schematics/schematicannon",
+      "text": "The Schematicannon builds your $(l:schematics/schematic)Schematics$() into the world. It uses gunpowder as fuel, and will pull the blocks it needs from an adjacent chest. It can even print a list of the required blocks to an empty book!"
     }
   ]
 }

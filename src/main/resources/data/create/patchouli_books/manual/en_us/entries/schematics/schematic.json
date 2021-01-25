@@ -1,0 +1,21 @@
+{
+  "name": "Schematic Items",
+  "icon": "create:schematic_and_quill",
+  "category": "schematics",
+  "anchor": "schematic",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/schematics/empty_schematic",
+      "recipe2": "create:crafting/schematics/schematic_and_quill"
+    },
+    {
+      "type": "text",
+      "text": "Schematics are items which allow you to save structures and replicate them elsewhere.$(br2)First, make a Schematic and Quill. Right click on a block to set the first anchor point, then right click again elsewhere to select a volume. A third right-click will prompt for a schematic name."
+    },
+    {
+      "type": "text",
+      "text": "Empty Schematics can be written to by a $(l:schematics/schematic_table)Schematic Table$(). Once you've placed them in the world with right-click, you can adjust their position, rotation, and mirroring. Build them by hand using the phantom blocks as a guide, or use a $(l:schematics/schematicannon)Schematicannon$()."
+    }
+  ]
+}

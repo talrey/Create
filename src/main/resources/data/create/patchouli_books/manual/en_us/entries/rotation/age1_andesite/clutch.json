@@ -28,7 +28,7 @@
         "mapping": {
           "I": "create:shaft",
           "V": "create:clutch",
-          "C": "create:clutch[axis=z]",
+          "C": "create:clutch[axis=x]",
           "L": "minecraft:lever[face=floor]",
           "u": "minecraft:lever[facing=east]",
           "I": "create:shaft",

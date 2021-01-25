@@ -2,14 +2,12 @@
   "name": "Schematic Table",
   "icon": "create:schematic_table",
   "category": "schematics",
+  "anchor": "schematic_table",
   "pages": [
     {
-      "type": "text",
-      "text": "The schematic table is for loading schematics to be placed."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:schematic_table"
+      "type": "crafting",
+      "recipe": "create:crafting/schematics/schematic_table",
+      "text": "The Schematic Table is for loading $(l:schematics/schematic)Schematics$() to be placed."
     }
   ]
 }

@@ -3,11 +3,13 @@
   "icon": "create:mechanical_mixer",
   "category": "consumers",
   "sortnum": 6,
+  "anchor": "mixer",
+  "advancement": "create:press",
   "pages": [
     {
       "type": "crafting",
-      "recipe": "create:crafting/kinetics/mechanical_mixer",
-      "recipe2": "create:crafting/kinetics/whisk"
+      "recipe": "create:crafting/kinetics/whisk",
+      "recipe2": "create:crafting/kinetics/mechanical_mixer"
     },
     {
       "type": "text",

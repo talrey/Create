@@ -3,6 +3,8 @@
   "icon": "create:mechanical_press",
   "category": "consumers",
   "sortnum": 4,
+  "anchor": "press",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
       "type": "crafting",

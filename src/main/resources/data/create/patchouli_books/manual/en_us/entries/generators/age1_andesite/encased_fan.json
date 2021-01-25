@@ -8,7 +8,11 @@
   "pages": [
     {
       "type": "crafting",
-      "recipe": "create:crafting/kinetics/encased_fan",
+      "recipe": "create:crafting/kinetics/propeller",
+      "recipe": "create:crafting/kinetics/encased_fan"
+    },
+    {
+      "type": "text",
       "text": "Giving a Fan a redstone signal will convert it into a compact source of power. Just put it over a heat source and let thermodynamics do its thing."
     }
   ]

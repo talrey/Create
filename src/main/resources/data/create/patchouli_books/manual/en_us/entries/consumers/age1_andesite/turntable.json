@@ -2,14 +2,14 @@
   "name": "Turntable",
   "icon": "create:turntable",
   "category": "consumers",
+  "sortnum": 0,
+  "anchor": "turntable",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/turntable",
       "text": "Uses rotational power to spin things around. It's fun, but maybe it's more useful as a crafting component..."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:turntable"
     }
   ]
 }

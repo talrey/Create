@@ -2,19 +2,22 @@
   "name": "Blaze Burner",
   "icon": "create:blaze_burner",
   "category": "consumers",
+  "sortnum": 9,
+  "anchor": "blaze_burner",
+  "advancement": "create:press",
+  "extra_recipe_mappings": {
+    "create:blaze_burner": 1
+  },
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/empty_blaze_burner",
       "text": "Blazes are a portable source of extreme heat. There must be a way to harness their power..."
     },
     {
       "type": "spotlight",
-      "item": "create:empty_blaze_burner"
-    },
-    {
-      "type": "spotlight",
       "item": "create:blaze_burner",
-      "text": "This page will be hidden until you figure out the conversion. #ToDo"
+      "text": "Once you've gotten a Blaze into your Burner, you're ready to get cooking! Put it under a $(l:consumers/age1_andesite/basin)Basin$() and feed it some kind of fuel. They're not picky, they'll eat anything a Furnace can use."
     }
   ]
 }

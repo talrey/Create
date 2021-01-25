@@ -2,14 +2,29 @@
   "name": "Nozzle",
   "icon": "create:nozzle",
   "category": "consumers",
+  "sortnum": 8,
+  "anchor": "nozzle",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
-      "text": "A breathable mesh block. Attach to an Encased Fan to spread the fan's affect over a wide area."
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/nozzle",
+      "text": "A breathable mesh block. Attach to an $(l:generators/age1_andesite/fan)Encased Fan$() to spread the fan's affect over a wide area."
     },
     {
-      "type": "spotlight",
-      "item": "create:nozzle"
+      "type": "multiblock",
+      "name": "Fan Out!",
+      "multiblock": {
+        "pattern": [
+          [" 0 "],
+          ["NF "]
+        ],
+        "mapping": {
+          "N": "create:nozzle",
+          "F": "create:encased_fan"
+        }
+      },
+      "enable_visualize": false
     }
   ]
 }

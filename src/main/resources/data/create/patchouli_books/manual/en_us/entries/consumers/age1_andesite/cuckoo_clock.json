@@ -2,14 +2,20 @@
   "name": "Cuckoo Clock",
   "icon": "create:cuckoo_clock",
   "category": "consumers",
+  "sortnum": 1,
+  "anchor": "cuckoo_clock",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/cuckoo_clock",
       "text": "Uses rotational power to tell the time. Has a pop-out chime at noon and sunset!"
     },
     {
-      "type": "spotlight",
-      "item": "create:cuckoo_clock"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/mysterious_cuckoo_clock",
+      "advancement": "create:cuckoo",
+      "text": "What in the world...? Do you really need an alarm clock this loud?"
     }
   ]
 }

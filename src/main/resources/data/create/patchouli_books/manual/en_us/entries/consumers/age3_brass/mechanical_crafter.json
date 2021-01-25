@@ -2,23 +2,24 @@
   "name": "Mechanical Crafter",
   "icon": "create:mechanical_crafter",
   "category": "consumers",
-  "sortnum": 13,
+  "sortnum": 11,
   "pages": [
     {
       "type": "text",
-      "text": "Mechanical crafters are Create's solution to automating the production of advanced devices.$(br2)You'll need a lot. They function by holding an item in their single slot; when all Mechanical Crafters in an array have an item, they'll mash them together with the same precision a Player can."
+      "text": "Mechanical crafters are Create's solution to automatic crafting.$(br2)They function by holding an item in their single slot; when all Mechanical Crafters in an array have an item, they'll mash them together with the same precision a Player can. Make sure the $(l)arrows$() on the Crafters point towards a $(l)common exit$()."
     },
     {
       "type": "multiblock",
       "name": "Mechanical Crafters",
       "multiblock": {
         "pattern": [
-          [" CCC ","     "],
+          [" >>> ","     "],
           [" CCC ","  0  "],
           [" CCC ","     "]
         ],
         "mapping": {
-          "C": "create:mechanical_crafter[facing=east]"
+          "C": "create:mechanical_crafter[facing=east]",
+          ">": "create:mechanical_crafter[facing=east,pointing=right]"
         }
       },
       "enable_visualize": false,

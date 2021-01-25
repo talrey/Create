@@ -2,14 +2,14 @@
   "name": "Mechanical Drill",
   "icon": "create:mechanical_drill",
   "category": "consumers",
+  "sortnum": 5,
+  "anchor": "drill",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/mechanical_drill",
       "text": "Uses rotational power to mine blocks like a pickaxe or shovel. Can be attached to a contraption for portable digging."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:mechanical_drill"
     }
   ]
 }

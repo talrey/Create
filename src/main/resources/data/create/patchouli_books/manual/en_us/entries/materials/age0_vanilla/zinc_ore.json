@@ -4,6 +4,9 @@
   "category": "materials",
   "sortnum": 0,
   "anchor": "zinc_ore",
+  "extra_recipe_mappings": {
+    "create:zinc_ore": 0
+  },
   "pages": [
     {
       "type": "spotlight",

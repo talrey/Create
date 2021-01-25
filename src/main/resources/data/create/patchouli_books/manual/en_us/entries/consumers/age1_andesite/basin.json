@@ -3,15 +3,17 @@
   "icon": "create:basin",
   "category": "consumers",
   "sortnum": 3,
+  "anchor": "basin",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
       "type": "crafting",
       "recipe": "create:crafting/kinetics/basin",
-      "text": "Basins are a bit too simple to really be a 'Contraption'. They are, however, excellent partners. They can hold fluids or item stacks, and other machines can interact with their contents."
+      "text": "Basins can hold fluids and item stacks, and other machines can interact with their contents."
     },
     {
       "type": "text",
-      "text": "$(l)Automatin' Basin$()$(br2)Basins can be given a Filter setting, which specifies what recipes they will create when other machines interact with them. They can also automatically output contents to inventories, Pipes, or Belts below their sides."
+      "text": "$(l)Automatin' Basin$()$(br2)Basins can be given a Filter setting, which specifies what recipes they will create when other machines interact with them. They can also automatically output contents to $(l:logistics/age1_andesite/depot)Depots$(), $(l:fluids/age1_andesite/fluid_pipe)Pipes$(), or $(l:logistics/age1_andesite/mechanical_belt)Belts$() below their sides."
     }
   ]
 }

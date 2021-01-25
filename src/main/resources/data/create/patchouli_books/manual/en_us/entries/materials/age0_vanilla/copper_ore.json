@@ -4,6 +4,9 @@
   "category": "materials",
   "sortnum": 0,
   "anchor": "copper_ore",
+  "extra_recipe_mappings": {
+    "create:copper_ore": 0
+  },
   "pages": [
     {
       "type": "spotlight",

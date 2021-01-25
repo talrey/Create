@@ -4,6 +4,10 @@
   "category": "materials",
   "sortnum": 3,
   "anchor": "copper_shingles",
+  "advancement": "create:press",
+  "extra_recipe_mappings": {
+    "create:copper_shingles": 0
+  },
   "pages": [
     {
       "type": "crafting",

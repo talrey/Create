@@ -2,14 +2,19 @@
   "name": "Deployer",
   "icon": "create:deployer",
   "category": "consumers",
+  "sortnum": 10,
+  "anchor": "deployer",
+  "advancement": "create:brass",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/brass_hand",
+      "recipe2": "create:crafting/kinetics/deployer",
       "text": "A handy helper that can use items just like a player! Capable of left or right clicks, and can be mounted to contraptions."
     },
     {
-      "type": "spotlight",
-      "item": "create:deployer"
+      "type": "text",
+      "text": "$(l)Punch, Click, and Poke$()$(br2)A Deployer can be configured to right click or left click - use a Wrench on the hand to change it. In addition, Deployers have a filter slot directly above the 'wrist' to make them more picky about what items they'll use. This might be handy on contraptions."
     }
   ]
 }

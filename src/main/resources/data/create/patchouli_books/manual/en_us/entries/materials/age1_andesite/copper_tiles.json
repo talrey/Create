@@ -4,6 +4,10 @@
   "category": "materials",
   "sortnum": 3,
   "anchor": "copper_tiles",
+  "advancement": "create:press",
+  "extra_recipe_mappings": {
+    "create:copper_tiles": 0
+  },
   "pages": [
     {
       "type": "crafting",

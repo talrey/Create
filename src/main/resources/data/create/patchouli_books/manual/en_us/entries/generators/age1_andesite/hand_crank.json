@@ -2,14 +2,14 @@
   "name": "Hand Crank",
   "icon": "create:hand_crank",
   "category": "generators",
+  "sortnum": 0,
+  "anchor": "hand_crank",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/hand_crank",
       "text": "Muscle power is a decent way to get the gears turning. Exercise will probably make you hungry, though."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:hand_crank"
     }
   ]
 }

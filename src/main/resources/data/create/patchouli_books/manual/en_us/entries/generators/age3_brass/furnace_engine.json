@@ -2,14 +2,18 @@
   "name": "Furnace Engine",
   "icon": "create:furnace_engine",
   "category": "generators",
+  "sortnum": 6,
+  "anchor": "furnace_engine",
+  "advancement": "create:brass",
   "pages": [
     {
-      "type": "text",
-      "text": "An advanced source of power based on the heat of an active furnace. It needs an attached Flywheel."
+      "type": "spotlight",
+      "item": "create:furnace_engine",
+      "text": "An advanced source of power based on the heat of an active furnace. It needs an attached Flywheel. You'll need a set of $(l:consumers/age3_brass/mechanical_crafter)Mechanical Crafters$() to make it."
     },
     {
-      "type": "spotlight",
-      "item": "create:furnace_engine"
+      "type": "text",
+      "text": "If you see this message, ping Talrey#3535 and tell him to figure out custom recipe types in Patchouli."
     }
   ]
 }

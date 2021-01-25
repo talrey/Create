@@ -2,14 +2,14 @@
   "name": "Valve Handle",
   "icon": "create:copper_valve_handle",
   "category": "generators",
+  "sortnum": 1,
+  "anchor": "valve_handle",
+  "advancement": "create:press",
   "pages": [
     {
-      "type": "text",
-      "text": "Allows a player to rotate things with more precision than a mere crank. You still won't be able to power much with it, but at least you can dye it."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:copper_valve_handle"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/copper_valve_handle",
+      "text": "Allows a player to rotate things with more precision than a $(l:generators/age1_andesite/hand_crank)Hand Crank$(). You still won't be able to power much with it, but at least you can dye it."
     }
   ]
 }

@@ -2,14 +2,18 @@
   "name": "Sail",
   "icon": "create:white_sail",
   "category": "generators",
+  "sortnum": 4,
+  "anchor": "sail",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
-      "text": "A handy component for making windmills."
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/sail_frame",
+      "recipe2": "create:crafting/kinetics/white_sail"
     },
     {
-      "type": "spotlight",
-      "item": "create:white_sail"
+      "type": "text",
+      "text": "A handy component for making $(l:generators/age1_andesite/windmill)Windmills$(). It's a more aesthetic alternative to wool, and has place-assist to make building the windmill easier.$(br2)Don't worry about the direction of the wind, this sail will work in any orientation."
     }
   ]
 }

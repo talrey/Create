@@ -2,14 +2,14 @@
   "name": "Windmill Bearing",
   "icon": "create:windmill_bearing",
   "category": "generators",
+  "sortnum": 3,
+  "anchor": "windmill",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
-      "text": "A variant of the Mechanical Bearing, this machine is designed to generate power from rotation rather than the other way around."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:windmill_bearing"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/windmill_bearing",
+      "text": "A variant of the $(l:contraptions/age1_andesite/mechanical_bearing)Mechanical Bearing$(), this machine is designed to generate power from rotation Put Wool or $(l:generators/age1_andesite/sail)Sails$() on it and set it going. A $(l:wrench)Wrench#() can change the direction it spins. Rotation, what a breeze!"
     }
   ]
 }

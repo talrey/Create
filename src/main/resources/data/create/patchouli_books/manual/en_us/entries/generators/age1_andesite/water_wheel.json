@@ -2,14 +2,14 @@
   "name": "Water Wheel",
   "icon": "create:water_wheel",
   "category": "generators",
+  "sortnum": 2,
+  "anchor": "water_wheel",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
-      "text": "A classic source of rotational power that's driven by flowing water."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:water_wheel"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/water_wheel",
+      "text": "A classic source of rotational power that's driven by flowing water. Make sure the vanes are facing the right way for maximum power."
     }
   ]
 }

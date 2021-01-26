@@ -13,8 +13,6 @@ import org.apache.commons.lang3.tuple.Pair;
 import com.simibubi.create.AllBlocks;
 import com.simibubi.create.content.contraptions.relays.belt.BeltHelper;
 import com.simibubi.create.content.contraptions.relays.belt.BeltTileEntity;
-import com.simibubi.create.content.logistics.block.funnel.BeltFunnelBlock;
-import com.simibubi.create.content.logistics.block.funnel.BeltFunnelBlock.Shape;
 import com.simibubi.create.foundation.advancement.AllTriggers;
 import com.simibubi.create.foundation.gui.AllIcons;
 import com.simibubi.create.foundation.tileEntity.TileEntityBehaviour;
@@ -205,7 +203,10 @@ public class BrassTunnelTileEntity extends BeltTunnelTileEntity {
 			indexStart = 0;
 
 		ItemStack toDistribute = null;
+		int leftovers = 0;
+
 		for (boolean simulate : Iterate.trueAndFalse) {
+			leftovers = 0;
 			int index = indexStart;
 			int stackSize = stackToDistribute.getCount();
 			int splitStackSize = stackSize / amountTargets;
@@ -226,12 +227,13 @@ public class BrassTunnelTileEntity extends BeltTunnelTileEntity {
 				ItemStack toOutput = ItemHandlerHelper.copyStackWithSize(toDistribute, count);
 				ItemStack remainder = insertIntoTunnel(tunnel, side, toOutput, simulate);
 
-				if (remainder == null || !remainder.isEmpty()) {
+				if (remainder == null || remainder.getCount() == count) {
 					if (force)
 						return;
 					continue;
 				}
 
+				leftovers += remainder.getCount();
 				toDistribute.shrink(count);
 				if (toDistribute.isEmpty())
 					break;
@@ -241,7 +243,7 @@ public class BrassTunnelTileEntity extends BeltTunnelTileEntity {
 			}
 		}
 
-		stackToDistribute = toDistribute.copy();
+		stackToDistribute = ItemHandlerHelper.copyStackWithSize(stackToDistribute, toDistribute.getCount() + leftovers);
 		previousOutputIndex++;
 		previousOutputIndex %= amountTargets;
 		notifyUpdate();
@@ -410,7 +412,9 @@ public class BrassTunnelTileEntity extends BeltTunnelTileEntity {
 		for (Direction direction : Iterate.horizontalDirections) {
 			if (direction == movementFacing && below.getSpeed() == 0)
 				continue;
-			if (tunnelTE.flaps.containsKey(direction) || tunnelTE.hasValidOutputFunnel(direction)) {
+			if (direction == movementFacing.getOpposite())
+				continue;
+			if (tunnelTE.sides.contains(direction)) {
 				BlockPos offset = tunnelTE.pos.down()
 					.offset(direction);
 				DirectBeltInputBehaviour inputBehaviour =
@@ -426,17 +430,6 @@ public class BrassTunnelTileEntity extends BeltTunnelTileEntity {
 				continue;
 			}
 		}
-	}
-
-	protected boolean hasValidOutputFunnel(Direction side) {
-		BlockState funnelState = world.getBlockState(getPos().offset(side));
-		if (!(funnelState.getBlock() instanceof BeltFunnelBlock))
-			return false;
-		if (funnelState.has(BeltFunnelBlock.POWERED) && funnelState.get(BeltFunnelBlock.POWERED))
-			return false;
-		if (funnelState.get(BeltFunnelBlock.HORIZONTAL_FACING) != side.getOpposite())
-			return false;
-		return funnelState.get(BeltFunnelBlock.SHAPE) == Shape.EXTENDED;
 	}
 
 	@Override
@@ -456,7 +449,7 @@ public class BrassTunnelTileEntity extends BeltTunnelTileEntity {
 	}
 
 	private boolean isValidFaceForFilter(Direction side) {
-		return flaps.containsKey(side);
+		return sides.contains(side);
 	}
 
 	@Override

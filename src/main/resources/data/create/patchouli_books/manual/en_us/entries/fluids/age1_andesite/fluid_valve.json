@@ -2,14 +2,14 @@
   "name": "Fluid Valve",
   "icon": "create:fluid_valve",
   "category": "fluids",
+  "sortnum": 2,
+  "anchor": "fluid_valve",
+  "advancement": "create:press",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/fluid_valve",
       "text": "Rotational power input can closed and open this pipe to control fluid flow."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:fluid_valve"
     }
   ]
 }

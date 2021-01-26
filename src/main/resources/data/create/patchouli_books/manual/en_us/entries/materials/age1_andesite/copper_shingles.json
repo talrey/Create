@@ -11,12 +11,12 @@
   "pages": [
     {
       "type": "crafting",
-      "recipe": "create:palettes/copper_shingles",
+      "recipe": "create:crafting/palettes/copper_shingles",
       "text": "A decorative block with a square texture that might look good on a roof.$(br2)Pick Tier: Stone$(br2)Trivia: Flat plates of copper have been used as roofing for a long time in real life!"
     },
     {
       "type": "crafting",
-      "recipe": "create:palettes/copper_shingles_from_tiles"
+      "recipe": "create:crafting/palettes/copper_shingles_from_tiles"
     }
   ]
 }

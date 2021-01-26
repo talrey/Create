@@ -2,14 +2,14 @@
   "name": "Smart Pipe",
   "icon": "create:smart_fluid_pipe",
   "category": "fluids",
+  "sortnum": 3,
+  "anchor": "smart_fluid_pipe",
+  "advancement": "create:press",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/smart_fluid_pipe",
       "text": "A variant pipe that includes a filter slot for determining what fluids can pass through."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:smart_fluid_pipe"
     }
   ]
 }

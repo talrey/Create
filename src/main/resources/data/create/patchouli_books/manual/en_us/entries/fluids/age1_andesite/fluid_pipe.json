@@ -2,15 +2,14 @@
   "name": "Fluid Pipe",
   "icon": "create:fluid_pipe",
   "category": "fluids",
+  "sortnum": 0,
   "anchor": "fluid_pipe",
+  "advancement": "create:press",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/fluid_pipe",
       "text": "A basic component of fluid logistics."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:fluid_pipe"
     }
   ]
 }

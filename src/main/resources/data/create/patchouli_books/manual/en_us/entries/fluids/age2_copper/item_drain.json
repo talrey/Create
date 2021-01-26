@@ -2,14 +2,14 @@
   "name": "Item Drain",
   "icon": "create:item_drain",
   "category": "fluids",
+  "sortnum": 6,
+  "anchor": "item_drain",
+  "advancement": "create:copper_casing",
   "pages": [
     {
-      "type": "text",
-      "text": "A container item like a bucket that passes over this block will empty its contents into the drain for the fluid system to use."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:item_drain"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/item_drain",
+      "text": "A container item (like a bucket) that passes over this block will empty its contents into the drain for the fluid system to use."
     }
   ]
 }

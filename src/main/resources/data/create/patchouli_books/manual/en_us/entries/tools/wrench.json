@@ -1,0 +1,15 @@
+{
+  "name": "Wrench",
+  "icon": "create:wrench",
+  "category": "tools",
+  "sortnum": 1,
+  "anchor": "wrench",
+  "advancement": "create:press",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/wrench",
+      "text": "An essential component of any engineer's toolkit. Right-click to rotate any Create block around the axis you're looking it. Shift-right-click to instantly break the block and place it into your inventory."
+    }
+  ]
+}

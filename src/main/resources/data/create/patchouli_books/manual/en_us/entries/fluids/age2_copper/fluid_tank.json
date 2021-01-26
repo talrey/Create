@@ -2,14 +2,14 @@
   "name": "Fluid Tank",
   "icon": "create:fluid_tank",
   "category": "fluids",
+  "sortnum": 4,
+  "anchor": "fluid_tank",
+  "advancement": "create:copper_casing",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/fluid_tank",
       "text": "These compact fluid storage blocks can merge to act as a single multiblock tank with a square base."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:fluid_tank"
     }
   ]
 }

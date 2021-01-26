@@ -2,14 +2,14 @@
   "name": "Hose Pulley",
   "icon": "create:hose_pulley",
   "category": "fluids",
+  "sortnum": 5,
+  "anchor": "hose_pulley",
+  "advancement": "create:copper_casing",
   "pages": [
     {
-      "type": "text",
-      "text": "Rotational power will raise and lower this block's hose to reach pools of fluid."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:hose_pulley"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/hose_pulley",
+      "text": "Rotational power will raise and lower this block's hose to reach pools of fluid, which can then be pumped in or out. A continuous lake of any fluid that is 10,000 blocks or more will be considered infinite."
     }
   ]
 }

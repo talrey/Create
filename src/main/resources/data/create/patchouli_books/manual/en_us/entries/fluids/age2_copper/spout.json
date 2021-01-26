@@ -2,14 +2,14 @@
   "name": "Spout",
   "icon": "create:spout",
   "category": "fluids",
+  "sortnum": 7,
+  "anchor": "spout",
+  "advancement": "create:copper_casing",
   "pages": [
     {
-      "type": "text",
-      "text": "Container items such as buckets that pass under this block (or are placed on a Depot) will be filled if the Spout has fluid contents."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:spout"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/spout",
+      "text": "Container items (such as buckets) that pass under this block on a $(l:logistics/age1_andesite/mechanical_belt)Belt$() (or are placed on a $(l:logistics/age1_andesite/depot)Depot$() below it) will be filled from the Spout's buffer tank."
     }
   ]
 }

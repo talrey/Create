@@ -2,14 +2,14 @@
   "name": "Mechanical Pump",
   "icon": "create:mechanical_pump",
   "category": "fluids",
+  "sortnum": 1,
+  "anchor": "pump",
+  "advancement": "create:press",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/mechanical_pump",
       "text": "A machine that turns rotational power into fluid motion."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:mechanical_pump"
     }
   ]
 }

@@ -139,6 +139,16 @@ public class BlockStateGen {
 			}, BlockStateProperties.WATERLOGGED);
 	}
 
+	public static <T extends Block> void simpleBlock(DataGenContext<Block, T> ctx, RegistrateBlockstateProvider prov,
+		Function<BlockState, ModelFile> modelFunc) {
+		prov.getVariantBuilder(ctx.getEntry())
+			.forAllStatesExcept(state -> {
+				return ConfiguredModel.builder()
+					.modelFile(modelFunc.apply(state))
+					.build();
+			}, BlockStateProperties.WATERLOGGED);
+	}
+
 	public static <T extends Block> void horizontalAxisBlock(DataGenContext<Block, T> ctx,
 		RegistrateBlockstateProvider prov, Function<BlockState, ModelFile> modelFunc) {
 		prov.getVariantBuilder(ctx.getEntry())
@@ -209,12 +219,17 @@ public class BlockStateGen {
 				CartAssembleRailType type = state.get(CartAssemblerBlock.RAIL_TYPE);
 				Boolean powered = state.get(CartAssemblerBlock.POWERED);
 				RailShape shape = state.get(CartAssemblerBlock.RAIL_SHAPE);
+				int yRotation = shape == RailShape.EAST_WEST ? 270 : 0;
+				if (type == CartAssembleRailType.CONTROLLER_RAIL_BACKWARDS) {
+					yRotation += 180;
+					type = CartAssembleRailType.CONTROLLER_RAIL;
+				}
 
 				return ConfiguredModel.builder()
 					.modelFile(p.models()
 						.getExistingFile(p
 							.modLoc("block/" + c.getName() + "/block_" + type.getName() + (powered ? "_powered" : ""))))
-					.rotationY(shape == RailShape.EAST_WEST ? 90 : 0)
+					.rotationY(yRotation % 360)
 					.build();
 			});
 	}

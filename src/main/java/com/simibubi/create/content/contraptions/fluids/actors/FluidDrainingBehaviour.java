@@ -174,6 +174,7 @@ public class FluidDrainingBehaviour extends FluidManipulationBehaviour {
 		infinite = false;
 		setValidationTimer();
 		frontier.add(new BlockPosEntry(root, 0));
+		tileEntity.sendData();
 	}
 
 	protected boolean checkValid(World world, BlockPos root) {
@@ -253,14 +254,14 @@ public class FluidDrainingBehaviour extends FluidManipulationBehaviour {
 	}
 
 	private void continueSearch() {
-		search(fluid, frontier, visited, (e, d) -> {
+		fluid = search(fluid, frontier, visited, (e, d) -> {
 			queue.enqueue(new BlockPosEntry(e, d));
 			validationSet.add(e);
 		}, false);
 
 		World world = getWorld();
 		int maxBlocks = maxBlocks();
-		if (visited.size() > maxBlocks && maxBlocks != -1) {
+		if (visited.size() > maxBlocks && canDrainInfinitely(fluid)) {
 			infinite = true;
 			// Find first block with valid fluid
 			while (true) {
@@ -291,7 +292,7 @@ public class FluidDrainingBehaviour extends FluidManipulationBehaviour {
 		search(fluid, validationFrontier, validationVisited, (e, d) -> newValidationSet.add(e), false);
 
 		int maxBlocks = maxBlocks();
-		if (validationVisited.size() > maxBlocks && maxBlocks != -1) {
+		if (validationVisited.size() > maxBlocks && canDrainInfinitely(fluid)) {
 			if (!infinite)
 				reset();
 			validationFrontier.clear();
@@ -322,6 +323,7 @@ public class FluidDrainingBehaviour extends FluidManipulationBehaviour {
 		newValidationSet.clear();
 		validationFrontier.clear();
 		validationVisited.clear();
+		tileEntity.sendData();
 	}
 
 	public static BehaviourType<FluidDrainingBehaviour> TYPE = new BehaviourType<>();

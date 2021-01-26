@@ -94,7 +94,6 @@ import com.simibubi.create.content.contraptions.relays.advanced.SpeedControllerB
 import com.simibubi.create.content.contraptions.relays.advanced.sequencer.SequencedGearshiftBlock;
 import com.simibubi.create.content.contraptions.relays.advanced.sequencer.SequencedGearshiftGenerator;
 import com.simibubi.create.content.contraptions.relays.belt.BeltBlock;
-import com.simibubi.create.content.contraptions.relays.belt.BeltColor;
 import com.simibubi.create.content.contraptions.relays.belt.BeltGenerator;
 import com.simibubi.create.content.contraptions.relays.belt.BeltModel;
 import com.simibubi.create.content.contraptions.relays.elementary.BracketedKineticBlockModel;
@@ -117,6 +116,7 @@ import com.simibubi.create.content.logistics.block.belts.tunnel.BrassTunnelCTBeh
 import com.simibubi.create.content.logistics.block.chute.ChuteBlock;
 import com.simibubi.create.content.logistics.block.chute.ChuteGenerator;
 import com.simibubi.create.content.logistics.block.chute.ChuteItem;
+import com.simibubi.create.content.logistics.block.chute.SmartChuteBlock;
 import com.simibubi.create.content.logistics.block.depot.DepotBlock;
 import com.simibubi.create.content.logistics.block.diodes.AbstractDiodeGenerator;
 import com.simibubi.create.content.logistics.block.diodes.AdjustableRepeaterBlock;
@@ -127,10 +127,9 @@ import com.simibubi.create.content.logistics.block.diodes.PulseRepeaterBlock;
 import com.simibubi.create.content.logistics.block.diodes.PulseRepeaterGenerator;
 import com.simibubi.create.content.logistics.block.diodes.ToggleLatchBlock;
 import com.simibubi.create.content.logistics.block.diodes.ToggleLatchGenerator;
-import com.simibubi.create.content.logistics.block.funnel.AndesiteBeltFunnelBlock;
 import com.simibubi.create.content.logistics.block.funnel.AndesiteFunnelBlock;
+import com.simibubi.create.content.logistics.block.funnel.BeltFunnelBlock;
 import com.simibubi.create.content.logistics.block.funnel.BeltFunnelGenerator;
-import com.simibubi.create.content.logistics.block.funnel.BrassBeltFunnelBlock;
 import com.simibubi.create.content.logistics.block.funnel.BrassFunnelBlock;
 import com.simibubi.create.content.logistics.block.funnel.FunnelMovementBehaviour;
 import com.simibubi.create.content.logistics.block.inventories.AdjustableCrateBlock;
@@ -298,7 +297,8 @@ public class AllBlocks {
 			.blockstate((c, p) -> new EncasedBeltGenerator((state, suffix) -> {
 				String powered = state.get(AdjustablePulleyBlock.POWERED) ? "_powered" : "";
 				return p.models()
-					.withExistingParent(c.getName() + "_" + suffix + powered, p.modLoc("block/encased_chain_drive/" + suffix))
+					.withExistingParent(c.getName() + "_" + suffix + powered,
+						p.modLoc("block/encased_chain_drive/" + suffix))
 					.texture("side", p.modLoc("block/" + c.getName() + powered));
 			}).generate(c, p))
 			.item()
@@ -313,7 +313,6 @@ public class AllBlocks {
 		.properties(p -> p.hardnessAndResistance(0.8F))
 		.blockstate(new BeltGenerator()::generate)
 		.transform(StressConfigDefaults.setImpact(1.0))
-		.onRegister(CreateRegistrate.blockColors(() -> BeltColor::new))
 		.onRegister(CreateRegistrate.blockModel(() -> BeltModel::new))
 		.register();
 
@@ -476,6 +475,13 @@ public class AllBlocks {
 		.addLayer(() -> RenderType::getCutoutMipped)
 		.blockstate(new ChuteGenerator()::generate)
 		.item(ChuteItem::new)
+		.transform(customItemModel("_", "block"))
+		.register();
+
+	public static final BlockEntry<SmartChuteBlock> SMART_CHUTE = REGISTRATE.block("smart_chute", SmartChuteBlock::new)
+		.initialProperties(SharedProperties::softMetal)
+		.blockstate((c, p) -> BlockStateGen.simpleBlock(c, p, AssetLookup.forPowered(c, p)))
+		.item()
 		.transform(customItemModel("_", "block"))
 		.register();
 
@@ -674,7 +680,6 @@ public class AllBlocks {
 	public static final BlockEntry<MechanicalPistonHeadBlock> MECHANICAL_PISTON_HEAD =
 		REGISTRATE.block("mechanical_piston_head", MechanicalPistonHeadBlock::new)
 			.initialProperties(() -> Blocks.PISTON_HEAD)
-			.tag(AllBlockTags.SAFE_NBT.tag)
 			.loot((p, b) -> p.registerDropping(b, PISTON_EXTENSION_POLE.get()))
 			.blockstate((c, p) -> BlockStateGen.directionalBlockIgnoresWaterlogged(c, p, state -> p.models()
 				.getExistingFile(p.modLoc("block/mechanical_piston/" + state.get(MechanicalPistonHeadBlock.TYPE)
@@ -760,7 +765,7 @@ public class AllBlocks {
 			.onRegister(CreateRegistrate.blockColors(() -> AllColorHandlers::getRedstonePower))
 			.tag(BlockTags.RAILS)
 			.item()
-			.model((c, p) -> p.generated(c, Create.asResource("block/" + c.getName() + "_item")))
+			.model((c, p) -> p.generated(c, Create.asResource("block/" + c.getName())))
 			.build()
 			.register();
 
@@ -1043,8 +1048,8 @@ public class AllBlocks {
 			.transform(BuilderTransformers.funnel("andesite", Create.asResource("block/andesite_casing")))
 			.register();
 
-	public static final BlockEntry<AndesiteBeltFunnelBlock> ANDESITE_BELT_FUNNEL =
-		REGISTRATE.block("andesite_belt_funnel", AndesiteBeltFunnelBlock::new)
+	public static final BlockEntry<BeltFunnelBlock> ANDESITE_BELT_FUNNEL =
+		REGISTRATE.block("andesite_belt_funnel", p -> new BeltFunnelBlock(AllBlocks.ANDESITE_FUNNEL, p))
 			.initialProperties(SharedProperties::stone)
 			.tag(AllBlockTags.SAFE_NBT.tag)
 			.blockstate(new BeltFunnelGenerator("andesite", new ResourceLocation("block/polished_andesite"))::generate)
@@ -1059,8 +1064,8 @@ public class AllBlocks {
 			.transform(BuilderTransformers.funnel("brass", Create.asResource("block/brass_casing")))
 			.register();
 
-	public static final BlockEntry<BrassBeltFunnelBlock> BRASS_BELT_FUNNEL =
-		REGISTRATE.block("brass_belt_funnel", BrassBeltFunnelBlock::new)
+	public static final BlockEntry<BeltFunnelBlock> BRASS_BELT_FUNNEL =
+		REGISTRATE.block("brass_belt_funnel", p -> new BeltFunnelBlock(AllBlocks.BRASS_FUNNEL, p))
 			.initialProperties(SharedProperties::softMetal)
 			.tag(AllBlockTags.SAFE_NBT.tag)
 			.blockstate(new BeltFunnelGenerator("brass", Create.asResource("block/brass_block"))::generate)

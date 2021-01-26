@@ -171,7 +171,7 @@ public class MechanicalPressTileEntity extends BasinOperatingTileEntity {
 			return;
 		}
 
-		if (runningTicks == CYCLE / 2) {
+		if (runningTicks == CYCLE / 2 && getSpeed() != 0) {
 			if (inWorld())
 				applyPressingInWorld();
 			if (onBasin())
@@ -232,6 +232,8 @@ public class MechanicalPressTileEntity extends BasinOperatingTileEntity {
 			return;
 		for (Entity entity : world.getEntitiesWithinAABBExcludingEntity(null, bb)) {
 			if (!(entity instanceof ItemEntity))
+				continue;
+			if (!entity.isAlive())
 				continue;
 			ItemEntity itemEntity = (ItemEntity) entity;
 			pressedItems.add(itemEntity.getItem());

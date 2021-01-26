@@ -2,14 +2,14 @@
   "name": "Redstone Contact",
   "icon": "create:redstone_contact",
   "category": "redstone",
+  "sortnum": 10,
+  "anchor": "redstone_contact",
+  "advancement": "create:brass_casing",
   "pages": [
     {
-      "type": "text",
-      "text": "A block that works in pairs. Will emit a signal if two Contacts' proper faces are touching."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:redstone_contact"
+      "type": "crafting",
+      "recipe": "create:crafting/logistics/redstone_contact",
+      "text": "A block that works in pairs. Will emit a signal if two Contacts' proper faces are touching. Probably best used on a contraption."
     }
   ]
 }

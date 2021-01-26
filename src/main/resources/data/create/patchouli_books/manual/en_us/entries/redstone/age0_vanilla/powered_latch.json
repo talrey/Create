@@ -2,14 +2,13 @@
   "name": "Powered Latch",
   "icon": "create:powered_latch",
   "category": "redstone",
+  "sortnum": 3,
+  "anchor": "latch",
   "pages": [
     {
-      "type": "text",
-      "text": "A compact way to set and reset a redstone signal."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:powered_latch"
+      "type": "crafting",
+      "recipe": "create:crafting/logistics/powered_latch",
+      "text": "A compact way to set and reset a redstone signal. Set it on from the back, and reset it off from the sides."
     }
   ]
 }

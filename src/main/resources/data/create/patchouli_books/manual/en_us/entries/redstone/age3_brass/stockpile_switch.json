@@ -2,14 +2,14 @@
   "name": "stockpile Switch",
   "icon": "create:stockpile_switch",
   "category": "redstone",
+  "sortnum": 9,
+  "anchor": "stockpile_switch",
+  "advancement": "create:brass_casing",
   "pages": [
     {
-      "type": "text",
-      "text": "Measures the amount of items in an adjacent inventory, with an adjustable hysteresis."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:stockpile_switch"
+      "type": "crafting",
+      "recipe": "create:crafting/logistics/stockpile_switch",
+      "text": "Measures the amount of items in an adjacent inventory, with an adjustable hysteresis gap - it will turn on when it passes above the high threshold, and will stay on until it falls below the low threshold."
     }
   ]
 }

@@ -2,14 +2,13 @@
   "name": "Pulse Repeater",
   "icon": "create:pulse_repeater",
   "category": "redstone",
+  "sortnum": 1,
+  "anchor": "pulse_repeater",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/logistics/pulse_repeater",
       "text": "A new variety of repeater for when you need a short pulse but not right now."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:pulse_repeater"
     }
   ]
 }

@@ -2,14 +2,14 @@
   "name": "Redstone Link",
   "icon": "create:redstone_link",
   "category": "redstone",
+  "sortnum": 11,
+  "anchor": "redstone_link",
+  "advancement": "create:brass_casing",
   "pages": [
     {
-      "type": "text",
-      "text": "A wireless redstone device that can send or receive on a set channel."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:redstone_link"
+      "type": "crafting",
+      "recipe": "create:crafting/logistics/redstone_link",
+      "text": "A wireless redstone device that can send or receive on a set channel, specified by setting the two item fields on the Link's face. Shift-right-click to toggle it between send and receive mode."
     }
   ]
 }

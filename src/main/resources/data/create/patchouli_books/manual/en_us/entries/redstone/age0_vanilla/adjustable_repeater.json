@@ -2,14 +2,13 @@
   "name": "Adjustable Repeater",
   "icon": "create:adjustable_repeater",
   "category": "redstone",
+  "sortnum": 0,
+  "anchor": "adjustable_repeater",
   "pages": [
     {
-      "type": "text",
-      "text": "A repeater variant with a conveniently large range of delay times."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:adjustable_repeater"
+      "type": "crafting",
+      "recipe": "create:crafting/logistics/adjustable_repeater",
+      "text": "A repeater variant with a conveniently large range of delay times. Use scroll-wheel to configure it."
     }
   ]
 }

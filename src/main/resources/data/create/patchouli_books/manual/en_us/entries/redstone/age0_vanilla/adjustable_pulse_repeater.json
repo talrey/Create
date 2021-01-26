@@ -2,14 +2,13 @@
   "name": "Adjustable Pulse Repeater",
   "icon": "create:adjustable_pulse_repeater",
   "category": "redstone",
+  "sortnum": 2,
+  "anchor": "adjustable_pulse_repeater",
   "pages": [
     {
-      "type": "text",
-      "text": "A handy combination of the pulse repeater and adjustable repeater, for when you need a short pulse but later today."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:adjustable_pulse_repeater"
+      "type": "crafting",
+      "recipe": "create:crafting/logistics/adjustable_pulse_repeater",
+      "text": "A handy combination of the $(l:redstone/age0_vanilla/pulse_repeater)Pulse Repeater$() and $(l:redstone/age0_vanilla/adjustable_repeater)Adjustable Repeater$(), for when you need a short pulse but later today."
     }
   ]
 }

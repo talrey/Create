@@ -1,0 +1,15 @@
+{
+  "name": "Controller Rail",
+  "icon": "create:controller_rail",
+  "category": "redstone",
+  "sortnum": 5,
+  "anchor": "controller_rail",
+  "advancement": "create:andesite_alloy",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/controller_rail",
+      "text": "A one-way powered rail with analog redstone input for speed control."
+    }
+  ]
+}

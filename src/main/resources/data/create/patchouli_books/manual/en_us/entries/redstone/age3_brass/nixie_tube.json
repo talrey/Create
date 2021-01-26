@@ -2,14 +2,14 @@
   "name": "Nixie Tube",
   "icon": "create:nixie_tube",
   "category": "redstone",
+  "sortnum": 7,
+  "anchor": "nixie_tube",
+  "advancement": "create:brass_casing",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/nixie_tube",
       "text": "Displays a redstone signal as a number from 0 to 15."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:nixie_tube"
     }
   ]
 }

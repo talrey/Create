@@ -2,14 +2,14 @@
   "name": "Content Observer",
   "icon": "create:content_observer",
   "category": "redstone",
+  "sortnum": 8,
+  "anchor": "content_observer",
+  "advancement": "create:brass_casing",
   "pages": [
     {
-      "type": "text",
-      "text": "Will detect the contents of belts and other machines next to it."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:content_observer"
+      "type": "crafting",
+      "recipe": "create:crafting/logistics/content_observer",
+      "text": "Will detect the contents of belts and other machines next to it. Set the filter slot to only send a signal when that item type passes by."
     }
   ]
 }

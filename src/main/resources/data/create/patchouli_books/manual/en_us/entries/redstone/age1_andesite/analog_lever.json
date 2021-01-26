@@ -1,0 +1,15 @@
+{
+  "name": "Analog Lever",
+  "icon": "create:analog_lever",
+  "category": "redstone",
+  "sortnum": 6,
+  "anchor": "analog_lever",
+  "advancement": "create:andesite_alloy",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/analog_lever",
+      "text": "Analog levers allow finer control of redstone signals than their vanilla counterpart. Right-click increments the power level, and shift-right-click decrements it."
+    }
+  ]
+}

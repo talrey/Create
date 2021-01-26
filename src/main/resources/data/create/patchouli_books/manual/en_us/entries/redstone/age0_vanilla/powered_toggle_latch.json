@@ -2,14 +2,13 @@
   "name": "Powered Toggle Latch",
   "icon": "create:powered_toggle_latch",
   "category": "redstone",
+  "sortnum": 4,
+  "anchor": "toggle_latch",
   "pages": [
     {
-      "type": "text",
-      "text": "A compact way to turn on and off a redstone signal."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:powered_toggle_latch"
+      "type": "crafting",
+      "recipe": "create:crafting/logistics/powered_toggle_latch",
+      "text": "A compact way to turn on and off a redstone signal. It will alternate between on and off every time a pulse arrives."
     }
   ]
 }

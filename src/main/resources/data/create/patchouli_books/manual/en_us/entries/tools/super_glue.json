@@ -1,0 +1,15 @@
+{
+  "name": "Super Glue",
+  "icon": "create:super_glue",
+  "category": "tools",
+  "sortnum": 2,
+  "anchor": "super_glue",
+  "advancement": "create:press",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/super_glue",
+      "text": "An alternative to applying Slime balls to $(l:contraptions/age1_andesite/linear_chassis)Chassis$(), this sticky stuff will bond two blocks and turns clear when you don't have glue in hand, so your contraptions can look their best."
+    }
+  ]
+}

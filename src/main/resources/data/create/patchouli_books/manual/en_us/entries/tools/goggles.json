@@ -1,0 +1,15 @@
+{
+  "name": "Goggles",
+  "icon": "create:goggles",
+  "category": "tools",
+  "sortnum": 0,
+  "anchor": "goggles",
+  "advancement": "create:press",
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/goggles",
+      "text": "Wearing these on your head will give you much more detailed information about the status of your Create machinery, and they're stylish too."
+    }
+  ]
+}

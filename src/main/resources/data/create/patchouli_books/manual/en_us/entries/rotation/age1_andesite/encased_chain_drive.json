@@ -2,14 +2,39 @@
   "name": "Chain Drive",
   "icon": "create:encased_chain_drive",
   "category": "rotation",
+  "sortnum": 6,
+  "anchor": "encased_chain_drive",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/encased_chain_drive",
       "text": "It can merge with nearby chain drives in a straight line to relay rotation, even if the line's twisted."
     },
     {
-      "type": "spotlight",
-      "item": "create:encased_chain_drive"
+      "type": "multiblock",
+      "name": "Chain Reaction",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            "I0I",
+            "   "
+          ],
+          [
+            " i ",
+            "CXC",
+            " i "
+          ]
+        ],
+        "mapping": {
+          "I": "create:shaft",
+          "i": "create:shaft[axis=x]",
+          "C": "create:encased_chain_drive",
+          "X": "create:encased_chain_drive[axis=x]"
+        }
+      },
+      "enable_visualize": false
     }
   ]
 }

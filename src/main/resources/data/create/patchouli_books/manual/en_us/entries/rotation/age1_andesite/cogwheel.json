@@ -3,11 +3,12 @@
   "icon": "create:cogwheel",
   "category": "rotation",
   "sortnum": 1,
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
       "type": "crafting",
       "recipe": "create:crafting/kinetics/cogwheel",
-      "text": "A basic component of rotational power transmission that can turn adjacent cogs with its teeth."
+      "text": "A basic component of rotational power transmission that can turn adjacent cogs with its teeth.$(br2)Place assist: right clicking with another Cogwheel will place it adjacent to the first."
     },
     {
       "type": "multiblock",

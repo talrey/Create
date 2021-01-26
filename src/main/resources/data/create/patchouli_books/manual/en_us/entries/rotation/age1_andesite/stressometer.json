@@ -2,14 +2,14 @@
   "name": "Stressometer",
   "icon": "create:stressometer",
   "category": "rotation",
+  "sortnum": 10,
+  "anchor": "stressometer",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
-      "text": "A simple device to display the amount of stress capacity in a rotational network. Place it in a crafting grid to get a Speedometer."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:stressometer"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/stressometerfrom_conversion",
+      "text": "A simple device to display the amount of stress capacity in a rotational network. Wearing $(l:tools/goggles)Goggles$() will give you more detailed information."
     }
   ]
 }

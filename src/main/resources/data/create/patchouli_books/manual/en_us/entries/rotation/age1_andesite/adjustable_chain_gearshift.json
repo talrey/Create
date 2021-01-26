@@ -2,14 +2,41 @@
   "name": "Chain Gearshift",
   "icon": "create:adjustable_chain_gearshift",
   "category": "rotation",
+  "sortnum": 7,
+  "anchor": "adjustable_chain_gearshift",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
-      "text": "An applied analog redstone signal will vary the ratio between this block's internal chain and exposed Shaft."
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/adjustable_chain_gearshift",
+      "text": "A variant $(l:rotation/age1_andesite/encased_chain_drive)Encased Chain Drive$() with speed control. An applied analog redstone signal will vary the ratio between this block's internal chain and exposed Shaft."
     },
     {
-      "type": "spotlight",
-      "item": "create:adjustable_chain_gearshift"
+      "type": "multiblock",
+      "name": "Analog Chain",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            "I0I",
+            "   "
+          ],
+          [
+            " i ",
+            "AXC",
+            "Li "
+          ]
+        ],
+        "mapping": {
+          "I": "create:shaft",
+          "i": "create:shaft[axis=x]",
+          "C": "create:encased_chain_drive",
+          "X": "create:encased_chain_drive[axis=x]",
+          "A": "create:adjustable_chain_gearshift",
+          "L": "create:analog_lever[facing=east]"
+        }
+      },
+      "enable_visualize": false
     }
   ]
 }

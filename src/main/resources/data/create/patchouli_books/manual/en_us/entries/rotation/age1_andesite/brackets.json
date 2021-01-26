@@ -2,18 +2,18 @@
   "name": "Brackets",
   "icon": "create:wooden_bracket",
   "category": "rotation",
+  "sortnum": 8,
+  "anchor": "bracket",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/wooden_bracket",
+      "recipe2": "create:crafting/kinetics/metal_bracket"
+    },
+    {
       "type": "text",
-      "text": "A decorative component that can be connected to rotational devices like Shafts and Cogwheels."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:wooden_bracket"
-    },
-    {
-      "type": "spotlight",
-      "item": "create:metal_bracket"
+      "text": "A decorative component that can be connected to rotational devices like $(l:rotation/age1_andesite/shaft)Shafts$(), $(l:rotation/age1_andesite/cogwheel)Cogwheels$(), and $(l:fluids/age1_andesite/fluid_pipe)Pipes$(). Comes in two variants. Right-click with a Wrench to remove it."
     }
   ]
 }

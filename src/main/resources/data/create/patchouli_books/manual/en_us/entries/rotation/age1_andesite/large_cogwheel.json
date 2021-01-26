@@ -3,11 +3,12 @@
   "icon": "create:large_cogwheel",
   "category": "rotation",
   "sortnum": 2,
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
       "type": "crafting",
       "recipe": "create:crafting/kinetics/large_cogwheel",
-      "text": "A variant cogwheel that can turn corners or form a gear ratio for speed changes."
+      "text": "A variant cogwheel that can turn corners or form a gear ratio for speed changes.$(br2)Place assist: Right-clicking with a small Cogwheel will place it diagonally, where it meshes. Using a Large Cogwheel will place it around a corner."
     },
     {
       "type": "multiblock",

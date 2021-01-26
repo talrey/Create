@@ -4,6 +4,7 @@
   "category": "rotation",
   "anchor": "shaft",
   "sortnum": 0,
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
       "type": "crafting",

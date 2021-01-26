@@ -2,14 +2,14 @@
   "name": "Sequenced Gearshift",
   "icon": "create:sequenced_gearshift",
   "category": "rotation",
+  "sortnum": 11,
+  "anchor": "sequenced_gearshift",
+  "advancement": "create:brass_casing",
   "pages": [
     {
-      "type": "text",
-      "text": "An advanced gearshift with configurable behavior."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:sequenced_gearshift"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/sequenced_gearshift",
+      "text": "An advanced gearshift with configurable behavior, triggered by a redstone signal."
     }
   ]
 }

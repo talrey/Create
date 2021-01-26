@@ -2,14 +2,19 @@
   "name": "Speedometer",
   "icon": "create:speedometer",
   "category": "rotation",
+  "sortnum": 9,
+  "anchor": "speedometer",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
-      "text": "A simple device to indicate the speed of rotational power. Place it in a crafting grid to get a Stressometer."
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/speedometer",
+      "text": "A simple device to indicate the speed of rotational power. Wearing $(l:tools/goggles)Goggles$() will give you more detailed information."
     },
     {
-      "type": "spotlight",
-      "item": "create:speedometer"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/speedometerfrom_conversion",
+      "text": "You can also convert a $(l:rotation/age1_andesite/stressometer)Stressometer$() back into a Speedometer."
     }
   ]
 }

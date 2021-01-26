@@ -2,14 +2,42 @@
   "name": "Gearshift",
   "icon": "create:gearshift",
   "category": "rotation",
+  "sortnum": 5,
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/gearshift",
       "text": "Normally acts as a Shaft, but a redstone signal will cause it to reverse the output's direction."
     },
     {
-      "type": "spotlight",
-      "item": "create:gearshift"
+      "type": "multiblock",
+      "name": "Shifting Gears",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            "I0L",
+            "   "
+          ],
+          [
+            "  i",
+            "V C",
+            "u i"
+          ]
+        ],
+        "mapping": {
+          "I": "create:shaft",
+          "V": "create:gearshift",
+          "C": "create:gearshift[axis=x]",
+          "L": "minecraft:lever[face=floor]",
+          "u": "minecraft:lever[facing=east]",
+          "I": "create:shaft",
+          "-": "create:shaft[axis=z]",
+          "i": "create:shaft[axis=x]"
+        }
+      },
+      "enable_visualize": false
     }
   ]
 }

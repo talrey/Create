@@ -3,6 +3,7 @@
   "icon": "create:gearbox",
   "category": "rotation",
   "sortnum": 3,
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
       "type": "crafting",

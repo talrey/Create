@@ -3,6 +3,7 @@
   "icon": "create:clutch",
   "category": "rotation",
   "sortnum": 4,
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
       "type": "crafting",

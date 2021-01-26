@@ -2,14 +2,36 @@
   "name": "Speed Controller",
   "icon": "create:rotation_speed_controller",
   "category": "rotation",
+  "sortnum": 12,
+  "anchor": "rsc",
+  "advancement": "create:brass_casing",
   "pages": [
     {
-      "type": "text",
-      "text": "Drives a Large Cogwheel connected above it at a constant speed when given any speed of input rotational power."
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/rotation_speed_controller",
+      "text": "Drives a Large Cogwheel connected above it at a constant speed when given any speed of input rotational power. Set the speed with scroll-wheel."
     },
     {
-      "type": "spotlight",
-      "item": "create:rotation_speed_controller"
+      "type": "multiblock",
+      "name": "Ultimate Control",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            " C "
+          ],
+          [
+            " 0 ",
+            "-R-"
+          ]
+        ],
+        "mapping": {
+          "-": "create:shaft[axis=z]",
+          "C": "create:large_cogwheel[axis=x]",
+          "R": "create:rotation_speed_controller[axis=z]"
+        }
+      },
+      "enable_visualize": false
     }
   ]
 }

@@ -2,14 +2,14 @@
   "name": "Cart Assembler",
   "icon": "create:cart_assembler",
   "category": "contraptions",
+  "sortnum": 5,
+  "anchor": "cart_assembler",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
-      "text": "Pass a minecart through this to assemble chassis or other blocks onto the cart as a moving contraption."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:cart_assembler"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/cart_assembler",
+      "text": "Pass a minecart through this while it's powered by redstone to assemble blocks onto the cart as a moving contraption."
     }
   ]
 }

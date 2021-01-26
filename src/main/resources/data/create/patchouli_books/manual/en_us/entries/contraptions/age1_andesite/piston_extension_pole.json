@@ -2,14 +2,14 @@
   "name": "Extension Pole",
   "icon": "create:piston_extension_pole",
   "category": "contraptions",
+  "sortnum": 3,
+  "anchor": "extension_pole",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
-      "text": "These determine how far a $(l:mechanical_piston)mechanical piston$() can reach."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:piston_extension_pole"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/piston_extension_pole",
+      "text": "These determine how far a $(l:contraptions/age1_andesite/mechanical_piston)Mechanical Piston$() can reach.$(br2)Place assist: right-click on another Pole to extend it."
     }
   ]
 }

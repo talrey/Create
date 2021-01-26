@@ -2,14 +2,14 @@
   "name": "Mechanical Piston",
   "icon": "create:mechanical_piston",
   "category": "contraptions",
+  "sortnum": 1,
+  "anchor": "piston",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
-      "text": "An extendable piston capable of moving chassis and other blocks."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:mechanical_piston"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/mechanical_piston",
+      "text": "An extendable piston capable of pushing other blocks in a line. Requires $(l:contraptions/age1_andesite/piston_extension_pole)Piston Extension Poles$() to function."
     }
   ]
 }

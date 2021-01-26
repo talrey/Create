@@ -2,14 +2,14 @@
   "name": "Linear Chassis",
   "icon": "create:linear_chassis",
   "category": "contraptions",
+  "sortnum": 7,
+  "anchor": "linear_chassis",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
-      "text": "Chassis blocks can be used to assemble lines of blocks as a contraption."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:linear_chassis"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/linear_chassis",
+      "text": "Chassis blocks can be used to assemble lines of blocks as a contraption, and will merge together to move as a group. Apply slime to their plank faces to grab blocks, and scroll with a $(l:tools/wrench)Wrench$() to set their reach."
     }
   ]
 }

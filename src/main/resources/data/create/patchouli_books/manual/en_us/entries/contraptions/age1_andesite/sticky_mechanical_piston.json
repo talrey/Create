@@ -2,14 +2,14 @@
   "name": "Sticky Mech Piston",
   "icon": "create:sticky_mechanical_piston",
   "category": "contraptions",
+  "sortnum": 2,
+  "anchor": "sticky_piston",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
-      "text": "A variant of the $(l:mechanical_piston)mechanical piston$() that can pull and push."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:sticky_mechanical_piston"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/sticky_mechanical_piston",
+      "text": "A variant of the $(l:contraptions/age1_andesite/mechanical_piston)Mechanical Piston$() that can also pull. Requires $(l:contraptions/age1_andesite/piston_extension_pole)Piston Extension Poles$() to function."
     }
   ]
 }

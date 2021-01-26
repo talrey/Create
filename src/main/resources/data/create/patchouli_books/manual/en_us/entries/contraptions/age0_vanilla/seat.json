@@ -2,14 +2,13 @@
   "name": "Seat",
   "icon": "create:white_seat",
   "category": "contraptions",
+  "sortnum": 0,
+  "anchor": "seat",
   "pages": [
     {
-      "type": "text",
-      "text": "Seats, a comfortable respite for a tired pair of legs. They can be dyed too!"
-    },
-    {
-      "type": "spotlight",
-      "item": "create:white_seat"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/white_seat",
+      "text": "Seats, a comfortable respite for a tired pair of legs. Ride along with moving machines! They can be dyed too."
     }
   ]
 }

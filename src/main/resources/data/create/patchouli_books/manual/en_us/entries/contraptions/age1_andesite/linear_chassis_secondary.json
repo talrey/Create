@@ -2,14 +2,14 @@
   "name": "Secondary Chassis",
   "icon": "create:secondary_linear_chassis",
   "category": "contraptions",
+  "sortnum": 8,
+  "anchor": "secondary_chassis",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/secondary_linear_chassisfrom_conversion",
       "text": "A variant of linear chassis. The two types won't merge, so this can be used to create adjoining but separate contraptions."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:secondary_linear_chassis"
     }
   ]
 }

@@ -2,14 +2,14 @@
   "name": "Rope Pulley",
   "icon": "create:rope_pulley",
   "category": "contraptions",
+  "sortnum": 6,
+  "anchor": "rope_pulley",
+  "advancement": "create:press",
   "pages": [
     {
-      "type": "text",
-      "text": "A basic machine that can lift and lower chassis and other blocks."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:rope_pulley"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/rope_pulley",
+      "text": "A basic machine that can lift and lower other blocks."
     }
   ]
 }

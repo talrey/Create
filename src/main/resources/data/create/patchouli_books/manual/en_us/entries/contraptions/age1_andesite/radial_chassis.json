@@ -2,14 +2,14 @@
   "name": "Radial Chassis",
   "icon": "create:radial_chassis",
   "category": "contraptions",
+  "sortnum": 9,
+  "anchor": "radial_chassis",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
-      "text": "Radial chassis can be used to assemble blocks in an area around them into a contraption."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:radial_chassis"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/radial_chassis",
+      "text": "Radial chassis can be used to assemble blocks in an area around them into a contraption. Just like $(l:contraptions/age1_andesite/linear_chassis)Linear Chassis$(), apply slime and scroll with a $(l:tools/wrench)Wrench$() to configure them."
     }
   ]
 }

@@ -2,14 +2,14 @@
   "name": "Storage Interface",
   "icon": "create:portable_storage_interface",
   "category": "contraptions",
+  "sortnum": 13,
+  "anchor": "psi",
+  "advancement": "create:brass_casing",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/portable_storage_interface",
       "text": "An extendable tube that can pair up to transfer items to and from a contraption in motion."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:portable_storage_interface"
     }
   ]
 }

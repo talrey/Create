@@ -2,14 +2,14 @@
   "name": "Mechanical Bearing",
   "icon": "create:mechanical_bearing",
   "category": "contraptions",
+  "sortnum": 4,
+  "anchor": "bearing",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
-      "text": "A machine capable of rotating chassis and other blocks."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:mechanical_bearing"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/mechanical_bearing",
+      "text": "A machine capable of rotating other blocks."
     }
   ]
 }

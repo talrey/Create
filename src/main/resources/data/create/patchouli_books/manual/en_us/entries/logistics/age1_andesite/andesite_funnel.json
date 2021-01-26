@@ -2,14 +2,14 @@
   "name": "Andesite Funnel",
   "icon": "create:andesite_funnel",
   "category": "logistics",
+  "sortnum": 3,
+  "anchor": "andesite_funnel",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/logistics/andesite_funnel",
       "text": "An Andesite Funnel can pull items out of an inventory, or insert them. It can't move directly between two inventories though."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:andesite_funnel"
     }
   ]
 }

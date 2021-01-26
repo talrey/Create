@@ -2,14 +2,14 @@
   "name": "Mechanical Arm",
   "icon": "create:mechanical_arm",
   "category": "logistics",
+  "sortnum": 8,
+  "anchor": "arm",
+  "advancement": "create:brass_casing",
   "pages": [
     {
-      "type": "text",
-      "text": "An advanced logistics handler that can grab items and deposit them in a designated place."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:mechanical_arm"
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/mechanical_arm",
+      "text": "An advanced logistics handler that can grab items and deposit them in designated places. Right click while holding the arm to set block coordinates as inputs and outputs."
     }
   ]
 }

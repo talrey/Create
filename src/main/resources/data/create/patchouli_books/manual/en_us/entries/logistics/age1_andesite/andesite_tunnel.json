@@ -2,14 +2,13 @@
   "name": "Andesite Tunnel",
   "icon": "create:andesite_tunnel",
   "category": "logistics",
+  "sortnum": 4,
+  "anchor": "andesite_tunnel",
   "pages": [
     {
-      "type": "text",
-      "text": "An Andesite Tunnel can cover a Belt for aesthetic or technical purposes."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:andesite_tunnel"
+      "type": "crafting",
+      "recipe": "create:crafting/logistics/andesite_tunnel",
+      "text": "An Andesite Tunnel can cover a Belt for aesthetic purposes, and can also split a single item off a stack that passes through."
     }
   ]
 }

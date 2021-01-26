@@ -3,14 +3,17 @@
   "icon": "create:belt_connector",
   "category": "logistics",
   "anchor": "mechanical_belt",
+  "sortnum": 2,
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/belt_connector",
       "text": "A common sight in most factories, a Belt can carry items and entities in a straight line."
     },
     {
-      "type": "spotlight",
-      "item": "create:belt_connector"
+      "type": "text",
+      "text": "$(l)Belt Building$()$(br2)Right-click on a $(l:rotation/age1_andesite/shaft)Shaft$() to set an initial position, and again on another Shaft in a straight line (or a vertical diagonal at 45 degrees) to complete the Belt. You'll know a second Shaft is a valid target if the first Shaft emits green particles at it. The particles will be purple if it's invalid."
     }
   ]
 }

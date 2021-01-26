@@ -2,14 +2,14 @@
   "name": "Adjustable Crate",
   "icon": "create:adjustable_crate",
   "category": "logistics",
+  "sortnum": 7,
+  "anchor": "adjustable_crate",
+  "advancement": "create:brass_casing",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/logistics/adjustable_crate",
       "text": "A chest-like block with a configurable inventory size. It can merge with an adjacent crate in any direction."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:adjustable_crate"
     }
   ]
 }

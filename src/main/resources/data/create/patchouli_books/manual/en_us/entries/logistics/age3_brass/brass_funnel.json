@@ -2,14 +2,14 @@
   "name": "Brass Funnel",
   "icon": "create:brass_funnel",
   "category": "logistics",
+  "sortnum": 5,
+  "anchor": "brass_funnel",
+  "advancement": "create:brass_casing",
   "pages": [
     {
-      "type": "text",
-      "text": "An advanced version of the Andesite Funnel, the Brass version has a filter slot."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:brass_funnel"
+      "type": "crafting",
+      "recipe": "create:crafting/logistics/brass_funnel",
+      "text": "An advanced version of the Andesite Funnel, the Brass version has a filter slot and is capable of moving whole stacks with an adjustable item count."
     }
   ]
 }

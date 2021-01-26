@@ -2,14 +2,14 @@
   "name": "Brass Tunnel",
   "icon": "create:brass_tunnel",
   "category": "logistics",
+  "sortnum": 6,
+  "anchor": "brass_tunnel",
+  "advancement": "create:brass_casing",
   "pages": [
     {
-      "type": "text",
-      "text": "An advanced version of the Andesite Tunnel, the Brass version has a filter slot and can merge with adjacent Brass Tunnels to sort items."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:brass_tunnel"
+      "type": "crafting",
+      "recipe": "create:crafting/logistics/brass_tunnel",
+      "text": "An advanced version of the Andesite Tunnel, the Brass version has a filter slot and can merge with adjacent Brass Tunnels to sort items. Set its mode with a $(l:tools/wrench)Wrench$() on the top face."
     }
   ]
 }

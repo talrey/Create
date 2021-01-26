@@ -2,14 +2,14 @@
   "name": "Depot",
   "icon": "create:depot",
   "category": "logistics",
+  "sortnum": 0,
+  "anchor": "depot",
+  "advancement": "create:andesite_alloy",
   "pages": [
     {
-      "type": "text",
+      "type": "crafting",
+      "recipe": "create:crafting/kinetics/depot",
       "text": "A Depot serves as a convenient to hold or display an item, and can be an interaction point with other machines."
-    },
-    {
-      "type": "spotlight",
-      "item": "create:depot"
     }
   ]
 }
